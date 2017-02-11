@@ -1,0 +1,23 @@
+title: "Gellibrand's 1635 data for the variation of the needle"
+description: |
+  Henry Gellibrand's data for readings of the variation between magnetic and
+  true north using the Sun's taken at Deptford, England.
+
+  It is the first known use of the term "meane" (mean) to refer to a statistic.
+  However, what he calls the measures of magnetic variations which he calculates,
+  4 degrees 5 minutes, is the mid-range of the data.
+variables:
+  - name: afternoon
+    description: Reading was taken in the afternoon
+  - name: altitude
+    description: Altitude of the Sun in degreees
+  - name: azim_mag
+    description: Magnetic azimuth in degrees
+  - name: azim_sun
+    description: Azimuth of the Sun in degrees
+  - name: variation
+    description: Variation between true and magnetic north in degrees
+
+source: "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}, p. 24"
+references:
+  - "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}"

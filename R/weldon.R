@@ -1,0 +1,30 @@
+#' Weldon's Dice
+#'
+#' 
+#' Frank Weldon threw 12 dice 26,306 times and for each throw counted the number of dice that showed a five or six. Pearson analyzed this data in 1900.
+#' 
+#' 
+#' 
+#' 
+#' 
+#'
+#' A data frame with 4 columns and 13 rows:
+#' \describe{
+#'  \item{ \code{ n }}{ \code{ integer }. Number of dice showing five or six in the throw of 12 dice. }
+#'  \item{ \code{ observed }}{ \code{ integer }. Number observed in Weldon's data }
+#'  \item{ \code{ theoretical }}{ \code{ integer }. Theoretical values assuming \eqn{\theta = 1/3}{theta = 1/3}. }
+#'  \item{ \code{ pearson }}{ \code{ integer }. Pearson's corrected theoretical values using \eqn{\theta = 0.3377}{theta = 0.3377}. }
+#' 
+#' }
+#'
+#'
+#' @references
+#' \itemize{
+#' \item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom} }
+#' \item{ Pearson, Karl. 1900. \dQuote{On the criterion that a given system of deviations from the probable in the case of a correlated system of variables is such that it can be reasonably supposed to have arisen from random sampling}, \emph{Philosophical Magazine}. 5th ser.50: 157-175 }
+#' 
+#' }
+#'
+#' @source
+#' Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 184
+"weldon"

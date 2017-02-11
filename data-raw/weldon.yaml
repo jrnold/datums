@@ -1,0 +1,23 @@
+title: "Weldon's Dice"
+description: >+
+  Frank Weldon threw 12 dice 26,306 times and for each throw
+  counted the number of dice that showed a five or six.
+  Pearson analyzed this data in 1900.
+
+variables:
+  - name: "n"
+    description: >
+      Number of dice showing five or six in the throw of 12 dice.
+  - name: observed
+    description: Number observed in Weldon's data
+  - name: theoretical
+    description: >
+      Theoretical values assuming \eqn{\theta = 1/3}{theta = 1/3}.
+  - name: pearson
+    description: >
+      Pearson's corrected theoretical values using \eqn{\theta = 0.3377}{theta = 0.3377}.
+
+source: "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}, p. 184"
+references:
+  - "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}"
+  - "Pearson, Karl. 1900. \\dQuote{On the criterion that a given system of deviations from the probable in the case of a correlated system of variables is such that it can be reasonably supposed to have arisen from random sampling}, \\emph{Philosophical Magazine}. 5th ser.50: 157-175"

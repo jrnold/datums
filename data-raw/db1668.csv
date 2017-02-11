@@ -1,0 +1,6 @@
+sun_altitude_d,sun_altitude_m,magnetic_azimuth_d,magnetic_azimuth_m,sun_azimuth_m,sun_azimuth_d,variation_d,variation_m
+44,20,72,0,70,38,1,22
+39,30,80,0,78,24,1,36
+31,50,90,0,88,26,1,34
+27,42,95,0,93,36,1,24
+23,20,103,0,101,23,1,23

@@ -1,0 +1,25 @@
+title: Yule and Kendall's nonsense correlations
+description: |
+  Data on the number of radio receiver licenses in the United Kingdom,
+  1927-1937 and the number of notified mental defectives per 10,000
+  in the United Kingdom were used by Udney and Kendell in
+  \emph{An Introduction to the Theory of Statistics} to illustrate
+  what they called "nonsense correlations".
+  Tufte updated these variable with the number of letters in the first name
+  of the US president for those years.
+variables:
+  - name: "year"
+    description: Year
+  - name: "radio_licenses"
+    description: "Number of radio receiver licenses in the United Kingdom, 1927-1937"
+  - name: "mental_defectives"
+    description: >
+      Number of notified "mental defectives" per 10,000 in the United Kingdom
+  - name: "presidential_names"
+    description: First name of the U.S. President
+source: >
+  Tufte, Edward R. 1974. \emph{Data Analysis for Politics and Policy}.
+  Prentice Hall.
+references:
+  - "Tufte, Edward R. 1974. \\emph{Data Analysis for Politics and Policy}. Prentice Hall."
+  - "Yule, G. Udny, and M.G. Kendall. 1950. \\emph{An Introduction to the Theory of Statistics}. 14th ed. London:Charles Griffin. p. 315-16."

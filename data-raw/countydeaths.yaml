@@ -1,0 +1,16 @@
+title: County death rates for six English counties, 1876-1883
+description: >+
+  County deaths for six English counties, 1876--1883, from the
+  1883 registrar-general's report.
+  This data was analyzed in Edgeworth (1885).
+variables:
+  - name: county
+    description: County name
+  - name: year
+    description: Year
+  - name: death_rate
+    description: Annual deaths per thousand in that county
+source: "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}, p. 98"
+references:
+- "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}, p. 26"
+- "Edgeworth, Francis Ysidro. 1885. \\dQuote{On Methods of Ascertaining Variations in the Rate of Births, Deaths and Marriages}. \\emph{Journal of the [Royal] Statistical Society}. 48: 628-649"

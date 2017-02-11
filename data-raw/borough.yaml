@@ -1,0 +1,20 @@
+title: "Borough's 1580 data for the variation of the needle"
+description: |
+  William Borough's data for readings of the variation between magnetic and
+  true north using the Sun's taken at different times of the day at
+  the Limehouse lighthouse, not far from the Greenwich Meridian.
+  These readings was published in \emph{A Discours of the Variation of the Campas, or Maneticall Needle}.
+
+variables:
+  - name: elevation
+    description: Elevation of the Sun in degrees
+  - name: variation_am
+    description: Difference between the shadow of the Sun before noon and the compass north.
+  - name: variation_pm
+    description: Difference between the shadow of the Sun after noon and the compass north.
+  - name: variation_north
+    description: Variation between true and magnetic north.
+
+source: "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}, p. 20"
+references:
+  - "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}"
