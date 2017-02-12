@@ -33,6 +33,8 @@
 #' 
 #' }
 #'
+#' 
 #' @source
 #' Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 24
+#' 
 "gellibrand"

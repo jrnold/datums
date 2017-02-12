@@ -22,6 +22,8 @@
 #' 
 #' }
 #'
+#' 
 #' @source
 #' Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 77-79
+#' 
 "gavarett"

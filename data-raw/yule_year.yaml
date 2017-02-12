@@ -1,0 +1,77 @@
+title: "Pauperism in England, 1871-1891 (Yearly Data)"
+description: |
+  Udney Yule's data on pauperism in England, 1871-1881.
+  See \code{\link{yul_plu_year}} for further description.
+variables:
+- name: ID
+  description: ID
+- name: year
+  description: Year
+- name: adultchabI
+  description: Ratio of Adult to Child Able-Bodied In-Door Paupers
+- name: adultchabO
+  description: Ratio of Adult to Child Able-Bodied Out-Door Paupers
+- name: adultchnotabI
+  description: Ratio of Adult to Child Not Able-Bodied In-Door Paupers
+- name: adultchnotabO
+  description: Ratio of Adult to Child Not Able-Bodied Out-Door Paupers
+- name: ChABI
+  description: Child Able-Bodied In-Door Paupers
+- name: ChABO
+  description: Child Able-Bodied Out-Door Paupers
+- name: ChNotABI
+  description: Child Not Able-Bodied In-Door Paupers
+- name: ChNotABO
+  description: Child Not Able-Bodied Out-Door Paupers
+- name: F65
+  description: Females Aged 65+ in the Population
+- name: FABI
+  description: Female Able-Bodied In-Door Paupers
+- name: FABO
+  description: Female Able-Bodied Out-Door Paupers
+- name: FNotABI
+  description: Female Not Able-Bodied In-Door Paupers
+- name: FNotABO
+  description: Female Not Able-Bodied Out-Door Paupers
+- name: M65
+  description: Males Aged 65+ in the Population
+- name: MABI
+  description: Male Able-Bodied In-Door Paupers
+- name: MABO
+  description: Male Able-Bodied Out-Door Paupers
+- name: mfabI
+  description: Ratio of Male to Female Able-Bodied In-Door Paupers
+- name: mfabO
+  description: Ratio of Male to Female Able-Bodied Out-Door Paupers
+- name: mfnotabI
+  description: Ratio of Male to Female Not Able-Bodied In-Door Paupers
+- name: mfnotabO
+  description: Ratio of Male to Female Not Able-Bodied Out-Door Paupers
+- name: MNotABI
+  description: Male Not Able-Bodied In-Door Paupers
+- name: MNotABO
+  description: Male Not Able-Bodied Out-Door Paupers
+- name: outratio
+  description: Ratio of Out-Door Paupers to In-Door Paupers
+- name: outratiodiff
+  description: Ratio of outratio91 to outratio81
+- name: pauper
+  description: Proportion of Paupers in the Population
+- name: pauper2
+  description: Proportion of Paupers in the Population correcting for border changes.
+- name: paupratiodiff
+  description: Ratio of Pauperism Proportion to previous decade
+- name: Popn
+  description: Population (from Census Population Abstracts)
+- name: Popn2
+  description: Population allowing for boundary changes. This is the population number used by Yule.
+- name: PopnF
+  description: Female Population
+- name: PopnM
+  description: Male Population
+- name: popratiodiff
+  description: Ratio of Population to previous decade
+- name: PropF65
+  description: Proportion of Females Aged 65+ in the Female Population
+- name: PropM65
+  description: Proportion of Males Aged 65+ in the Male Population

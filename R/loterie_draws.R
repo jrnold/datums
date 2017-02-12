@@ -42,6 +42,8 @@
 #' 
 #' }
 #'
+#' 
 #' @source
 #' \url{http://www.stat.uchicago.edu/~stigler/French_Lottery_Data.html}
+#' 
 "loterie_draws"
