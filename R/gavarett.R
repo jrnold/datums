@@ -14,14 +14,22 @@
 #' 
 #' }
 #'
-#'
+#' 
 #' @references
 #' \itemize{
 #' \item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom} }
 #' \item{ Gavarett, Jules. 1840. \emph{Pricipes generaux de statistique medicale}. Paris: Bechet jenue et Labe. }
 #' 
 #' }
-#'
+#' 
+#' @references
+#' \itemize{
+#' \item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom} }
+#' \item{ Gavarett, Jules. 1840. \emph{Pricipes generaux de statistique medicale}. Paris: Bechet jenue et Labe. }
+#' 
+#' }
+#' 
+#
 #' 
 #' @source
 #' Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 77-79

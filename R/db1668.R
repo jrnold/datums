@@ -17,13 +17,14 @@
 #' 
 #' }
 #'
-#'
+#' 
 #' @references
 #' \itemize{
 #' \item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 26 }
 #' 
 #' }
-#'
+#' 
+#
 #' 
 #' @source
 #' Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}

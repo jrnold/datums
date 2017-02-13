@@ -1,7 +1,13 @@
 title: "Pauperism in England, 1871-1891 (Yearly Data)"
 description: |
-  Udney Yule's data on pauperism in England, 1871-1881.
-  See \code{\link{yul_plu_year}} for further description.
+  Data on pauparism used in the 1899 article, \dQuote{An Investigation into the Causes of Changes in Pauperism in England},
+  by Udny Yule, which is the first use of multiple regression.
+  The data contains yearl data on pauperism, the proportion of paupers provided for at home
+  vs. the work house, population, and population over 65 for the Poor Law Unions
+  of England for the years: 1871, 1881, and 1891.
+
+  See \code{\link{yule_plu}} for variables related to the Poor Law Unions.
+
 variables:
 - name: ID
   description: ID

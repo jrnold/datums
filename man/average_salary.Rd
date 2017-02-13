@@ -27,9 +27,4 @@ A data frame with 1 columns and 25 rows:
 
 }
 }
-\references{
-\itemize{
-
-}
-}
 \keyword{datasets}

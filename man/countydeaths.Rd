@@ -29,5 +29,11 @@ A data frame with 3 columns and 48 rows:
 \item{ Edgeworth, Francis Ysidro. 1885. \dQuote{On Methods of Ascertaining Variations in the Rate of Births, Deaths and Marriages}. \emph{Journal of the [Royal] Statistical Society}. 48: 628-649 }
 
 }
+
+\itemize{
+\item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 26 }
+\item{ Edgeworth, Francis Ysidro. 1885. \dQuote{On Methods of Ascertaining Variations in the Rate of Births, Deaths and Marriages}. \emph{Journal of the [Royal] Statistical Society}. 48: 628-649 }
+
+}
 }
 \keyword{datasets}

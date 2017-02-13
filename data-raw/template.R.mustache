@@ -10,15 +10,21 @@
 #' {{/variables}}
 #' }
 #'
-#'
+#' {{#references}}
 #' @references
 #' \itemize{
 #' {{#references}}\item{ {{.}} }
 #' {{/references}}
 #' }
+#' {{/references}}
 #'
 #' {{#source}}
 #' @source
 #' {{{source}}}
 #' {{/source}}
+#'
+#' {{#seeAlso}}
+#' @seeAlso
+#' {{.}}
+#' {{/seeAlso}}
 "{{{name}}}"

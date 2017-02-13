@@ -5,17 +5,17 @@
 #' 
 #' \tabular{rrl}{
 #' 
-#'   name \tab number correct \tab payoff \cr
+#' name \tab number correct \tab payoff \cr
 #' 
-#'   quine \tab five \tab 1,000,000 \cr
+#' quine \tab five \tab 1,000,000 \cr
 #' 
-#'   quartene \tab four \tab 75,000 \cr
+#' quartene \tab four \tab 75,000 \cr
 #' 
-#'   terne \tab three \tab 5,000 \cr
+#' terne \tab three \tab 5,000 \cr
 #' 
-#'   ambe \tab two \tab 270 \cr
+#' ambe \tab two \tab 270 \cr
 #' 
-#'   extrait \tab one \tab 15
+#' extrait \tab one \tab 15
 #' 
 #' }
 #' 
@@ -34,14 +34,22 @@
 #' 
 #' }
 #'
-#'
+#' 
 #' @references
 #' \itemize{
 #' \item{ Stephen M. Stigler. 2003. \dQuote{Casanova, Bonaparte and the Loterie de France}, \emph{Journal de la Société Française de Statistique} }
 #' \item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 166-170. }
 #' 
 #' }
-#'
+#' 
+#' @references
+#' \itemize{
+#' \item{ Stephen M. Stigler. 2003. \dQuote{Casanova, Bonaparte and the Loterie de France}, \emph{Journal de la Société Française de Statistique} }
+#' \item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 166-170. }
+#' 
+#' }
+#' 
+#
 #' 
 #' @source
 #' \url{http://www.stat.uchicago.edu/~stigler/French_Lottery_Data.html}

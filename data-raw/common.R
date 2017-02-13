@@ -1,4 +1,6 @@
 library("assertthat")
+library("stringr")
+library("tidyverse")
 
 parse_degrees <- function(x) {
   m <- stringr::str_match(x, "(?:(-?\\d+)d)?\\s*(?:(\\d+(\\.\\d*)?)m)?")
@@ -13,7 +15,7 @@ write_doc <- function(name, data) {
   assert_that(identical(map_chr(metadata$variables, "name"),
                         names(data)))
   variables_desc <- map_chr(metadata$variables, "description") %>%
-    stringr::str_trim()
+    str_trim()
   metadata[["name"]] <- name
   metadata[["variables"]] <-
     pmap(list(x = data, nm = names(data), desc = variables_desc),
@@ -25,7 +27,8 @@ write_doc <- function(name, data) {
     )
   }) %>% unname
   metadata[["description"]] <-
-    stringr::str_split(metadata[['description']], "\n")[[1]] %>%
+    str_split(metadata[['description']], "\n")[[1]] %>%
+    str_trim() %>%
     as.list()
   template <- paste0(readLines("data-raw/template.R.mustache"),
                      collapse = "\n")

@@ -51,5 +51,11 @@ A data frame with 5 columns and 6606 rows:
 \item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 166-170. }
 
 }
+
+\itemize{
+\item{ Stephen M. Stigler. 2003. \dQuote{Casanova, Bonaparte and the Loterie de France}, \emph{Journal de la Société Française de Statistique} }
+\item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 166-170. }
+
+}
 }
 \keyword{datasets}

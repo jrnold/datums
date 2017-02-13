@@ -14,14 +14,22 @@
 #' 
 #' }
 #'
-#'
+#' 
 #' @references
 #' \itemize{
 #' \item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 26 }
 #' \item{ Edgeworth, Francis Ysidro. 1885. \dQuote{On Methods of Ascertaining Variations in the Rate of Births, Deaths and Marriages}. \emph{Journal of the [Royal] Statistical Society}. 48: 628-649 }
 #' 
 #' }
-#'
+#' 
+#' @references
+#' \itemize{
+#' \item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 26 }
+#' \item{ Edgeworth, Francis Ysidro. 1885. \dQuote{On Methods of Ascertaining Variations in the Rate of Births, Deaths and Marriages}. \emph{Journal of the [Royal] Statistical Society}. 48: 628-649 }
+#' 
+#' }
+#' 
+#
 #' 
 #' @source
 #' Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 98

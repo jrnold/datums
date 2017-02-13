@@ -1,164 +1,65 @@
-library(httr)
-library("tidyverse")
-library("haven")
-library("stringr")
-# Tab separated
-# URL <- "http://ws.ukdataservice.ac.uk/REST/Download/Download/DSO/7822tab_a9c0bf00b701b5c0dda6e9dbab19d913.zip"
-# Stata
-URL <- "http://ws.ukdataservice.ac.uk/REST/Download/Download/DSO/7822stata11_4bda01ce1faf9e42c2340e76bc12f386.zip"
-
-dst_dir <- "data-raw/UKDA-7822-stata11"
-dst_zip <- file.path("data-raw", basename(URL))
-if (!dir.exists(dst_dir)) {
-  GET(URL, write_disk(dst_zip, overwrite = TRUE))
-  unzip(dst_zip, exdir = "data-raw")
-  unlink(dst_zip)
-}
-
-col_types <- cols(
-  id = col_integer(),
-  Union = col_character(),
-  Region = col_integer(),
-  County = col_integer(),
-  Type = col_integer(),
-  BoothGroup = col_integer(),
-  BoothDensity = col_double(),
-  Popn1871_2 = col_integer(),
-  MABI71 = col_integer(),
-  FABI71 = col_integer(),
-  ChABI71 = col_integer(),
-  MNotABI71 = col_integer(),
-  FNotABI71 = col_integer(),
-  ChNotABI71 = col_integer(),
-  MABO71 = col_integer(),
-  FABO71 = col_integer(),
-  ChABO71 = col_integer(),
-  MNotABO71 = col_integer(),
-  FNotABO71 = col_integer(),
-  ChNotABO71 = col_integer(),
-  MABI81 = col_integer(),
-  FABI81 = col_integer(),
-  ChABI81 = col_integer(),
-  MNotABI81 = col_integer(),
-  FNotABI81 = col_integer(),
-  ChNotABI81 = col_integer(),
-  MABO81 = col_integer(),
-  FABO81 = col_integer(),
-  ChABO81 = col_integer(),
-  MNotABO81 = col_integer(),
-  FNotABO81 = col_integer(),
-  ChNotABO81 = col_integer(),
-  Popn1881 = col_integer(),
-  popratio7181 = col_double(),
-  pauper71 = col_double(),
-  pauper81 = col_double(),
-  paupratio7181 = col_double(),
-  outratio71 = col_double(),
-  outratio81 = col_double(),
-  outratio7181 = col_double(),
-  MABI91 = col_integer(),
-  FABI91 = col_integer(),
-  ChABI91 = col_integer(),
-  MNotABI91 = col_integer(),
-  FNotABI91 = col_integer(),
-  ChNotABI91 = col_integer(),
-  MABO91 = col_integer(),
-  FABO91 = col_integer(),
-  ChABO91 = col_integer(),
-  MNotABO91 = col_integer(),
-  FNotABO91 = col_integer(),
-  ChNotABO91 = col_integer(),
-  Popn1881_2 = col_integer(),
-  Popn1891 = col_integer(),
-  popratio8191 = col_double(),
-  pauper91 = col_double(),
-  pauper81_2 = col_double(),
-  paupratio8191 = col_double(),
-  outratio91 = col_double(),
-  outratio8191 = col_double(),
-  mfab71I = col_double(),
-  mfab81I = col_double(),
-  mfab91I = col_double(),
-  mfab71O = col_double(),
-  mfab81O = col_double(),
-  mfab91O = col_double(),
-  mfnotab71I = col_double(),
-  mfnotab81I = col_double(),
-  mfnotab91I = col_double(),
-  mfnotab71O = col_double(),
-  mfnotab81O = col_double(),
-  mfnotab91O = col_double(),
-  adultchab71I = col_double(),
-  adultchab81I = col_double(),
-  adultchab91I = col_double(),
-  adultchnotab71I = col_double(),
-  adultchnotab81I = col_double(),
-  adultchnotab91I = col_double(),
-  adultchab71O = col_double(),
-  adultchab81O = col_double(),
-  adultchab91O = col_double(),
-  adultchnotab71O = col_double(),
-  adultchnotab81O = col_double(),
-  adultchnotab91O = col_double(),
-  Popn1871 = col_integer(),
-  PopnM1871 = col_integer(),
-  PopnF1871 = col_integer(),
-  M6571 = col_integer(),
-  PropM6571 = col_double(),
-  F6571 = col_integer(),
-  PropF6571 = col_double(),
-  PopnM1881 = col_integer(),
-  PopnF1881 = col_integer(),
-  M6581 = col_integer(),
-  PropM6581 = col_double(),
-  F6581 = col_integer(),
-  PropF6581 = col_double(),
-  PopnM1891 = col_integer(),
-  PopnF1891 = col_integer(),
-  M6591 = col_integer(),
-  PropM6591 = col_double(),
-  F6591 = col_integer(),
-  PropF6591 = col_double()
-)
-
-newnames <- read_csv("data-raw/yule_varnames.csv",
-                     col_types = cols(
-                       newname = col_character(),
-                       oldname = col_character()
-                     )) %>%
-{set_names(.[["oldname"]], .[["newname"]])}
-
-# yule <- read_tsv(file.path(dst_dir, "tab", "yule.tab"),
-#                  col_types = col_types) %>%
-yule_raw <- read_dta(file.path(dst_dir, "stata11", "yule_ip1.dta"))
-
-name_replacements <-
-  names(yule_raw) %>%
-  str_replace("(18[789]1)$", "_\\1") %>%
-  str_replace("(7181|8191)$", "diff_\\1") %>%
-  str_replace("_7181", "_1881") %>%
-  str_replace("_8191", "_1891") %>%
-  str_replace("((?<!18)[789]1)$", "_18\\1") %>%
-  str_replace("(71|81|91)([IO])$", "\\2_18\\1") %>%
-  str_replace("(18[789]1)_2$", "2_\\1") %>%
-  str_replace("([789]1)_2$", "2_18\\1") %>%
-  {set_names(names(yule_raw), .)}
-
-yule <- yule_raw %>%
-  mutate_if(is.labelled, compose(as.character, haven::as_factor)) %>%
-  mutate_all(as.vector) %>%
-  rename_(.dots = name_replacements)
-
-
-# Poor Law Union - Year data
-yule %>%
-  gather(variable_year, value, matches("_18\\d{2}$")) %>%
-  select(ID, variable_year, value) %>%
-  separate(variable_year, c("variable", "year"), convert = TRUE) %>%
-  spread(variable, value) %>%
-  save_data("yule_year")
-
-# Poor Law Union data
-yule %>%
-  select(-matches("_18\\d\\d$")) %>%
-  save_data("yule_plu")
+#' Pauperism in England, 1871-1891 (Yearly Data)
+#'
+#' 
+#' Data on pauparism used in the 1899 article, \dQuote{An Investigation into the Causes of Changes in Pauperism in England},
+#' 
+#' by Udny Yule, which is the first use of multiple regression.
+#' 
+#' The data contains yearl data on pauperism, the proportion of paupers provided for at home
+#' 
+#' vs. the work house, population, and population over 65 for the Poor Law Unions
+#' 
+#' of England for the years: 1871, 1881, and 1891.
+#' 
+#' 
+#' 
+#' See \code{\link{yule_plu}} for variables related to the Poor Law Unions.
+#' 
+#' 
+#' 
+#'
+#' A data frame with 36 columns and 1797 rows:
+#' \describe{
+#'  \item{ \code{ ID }}{ \code{ numeric }. ID }
+#'  \item{ \code{ year }}{ \code{ integer }. Year }
+#'  \item{ \code{ adultchabI }}{ \code{ numeric }. Ratio of Adult to Child Able-Bodied In-Door Paupers }
+#'  \item{ \code{ adultchabO }}{ \code{ numeric }. Ratio of Adult to Child Able-Bodied Out-Door Paupers }
+#'  \item{ \code{ adultchnotabI }}{ \code{ numeric }. Ratio of Adult to Child Not Able-Bodied In-Door Paupers }
+#'  \item{ \code{ adultchnotabO }}{ \code{ numeric }. Ratio of Adult to Child Not Able-Bodied Out-Door Paupers }
+#'  \item{ \code{ ChABI }}{ \code{ numeric }. Child Able-Bodied In-Door Paupers }
+#'  \item{ \code{ ChABO }}{ \code{ numeric }. Child Able-Bodied Out-Door Paupers }
+#'  \item{ \code{ ChNotABI }}{ \code{ numeric }. Child Not Able-Bodied In-Door Paupers }
+#'  \item{ \code{ ChNotABO }}{ \code{ numeric }. Child Not Able-Bodied Out-Door Paupers }
+#'  \item{ \code{ F65 }}{ \code{ numeric }. Females Aged 65+ in the Population }
+#'  \item{ \code{ FABI }}{ \code{ numeric }. Female Able-Bodied In-Door Paupers }
+#'  \item{ \code{ FABO }}{ \code{ numeric }. Female Able-Bodied Out-Door Paupers }
+#'  \item{ \code{ FNotABI }}{ \code{ numeric }. Female Not Able-Bodied In-Door Paupers }
+#'  \item{ \code{ FNotABO }}{ \code{ numeric }. Female Not Able-Bodied Out-Door Paupers }
+#'  \item{ \code{ M65 }}{ \code{ numeric }. Males Aged 65+ in the Population }
+#'  \item{ \code{ MABI }}{ \code{ numeric }. Male Able-Bodied In-Door Paupers }
+#'  \item{ \code{ MABO }}{ \code{ numeric }. Male Able-Bodied Out-Door Paupers }
+#'  \item{ \code{ mfabI }}{ \code{ numeric }. Ratio of Male to Female Able-Bodied In-Door Paupers }
+#'  \item{ \code{ mfabO }}{ \code{ numeric }. Ratio of Male to Female Able-Bodied Out-Door Paupers }
+#'  \item{ \code{ mfnotabI }}{ \code{ numeric }. Ratio of Male to Female Not Able-Bodied In-Door Paupers }
+#'  \item{ \code{ mfnotabO }}{ \code{ numeric }. Ratio of Male to Female Not Able-Bodied Out-Door Paupers }
+#'  \item{ \code{ MNotABI }}{ \code{ numeric }. Male Not Able-Bodied In-Door Paupers }
+#'  \item{ \code{ MNotABO }}{ \code{ numeric }. Male Not Able-Bodied Out-Door Paupers }
+#'  \item{ \code{ outratio }}{ \code{ numeric }. Ratio of Out-Door Paupers to In-Door Paupers }
+#'  \item{ \code{ outratiodiff }}{ \code{ numeric }. Ratio of outratio91 to outratio81 }
+#'  \item{ \code{ pauper }}{ \code{ numeric }. Proportion of Paupers in the Population }
+#'  \item{ \code{ pauper2 }}{ \code{ numeric }. Proportion of Paupers in the Population correcting for border changes. }
+#'  \item{ \code{ paupratiodiff }}{ \code{ numeric }. Ratio of Pauperism Proportion to previous decade }
+#'  \item{ \code{ Popn }}{ \code{ numeric }. Population (from Census Population Abstracts) }
+#'  \item{ \code{ Popn2 }}{ \code{ numeric }. Population allowing for boundary changes. This is the population number used by Yule. }
+#'  \item{ \code{ PopnF }}{ \code{ numeric }. Female Population }
+#'  \item{ \code{ PopnM }}{ \code{ numeric }. Male Population }
+#'  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
+#'  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
+#'  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+#' 
+#' }
+#'
+#' 
+#
+#' 
+"yule"

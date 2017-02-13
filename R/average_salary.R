@@ -16,12 +16,8 @@
 #' 
 #' }
 #'
-#'
-#' @references
-#' \itemize{
 #' 
-#' }
-#'
+#
 #' 
 #' @source
 #' Hoff, Darrell. 1954. \emph{How to Lie with Statistics}. W.W. Norton & Company.

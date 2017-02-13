@@ -17,14 +17,22 @@
 #' 
 #' }
 #'
-#'
+#' 
 #' @references
 #' \itemize{
 #' \item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom} }
 #' \item{ Pearson, Karl. 1900. \dQuote{On the criterion that a given system of deviations from the probable in the case of a correlated system of variables is such that it can be reasonably supposed to have arisen from random sampling}, \emph{Philosophical Magazine}. 5th ser.50: 157-175 }
 #' 
 #' }
-#'
+#' 
+#' @references
+#' \itemize{
+#' \item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom} }
+#' \item{ Pearson, Karl. 1900. \dQuote{On the criterion that a given system of deviations from the probable in the case of a correlated system of variables is such that it can be reasonably supposed to have arisen from random sampling}, \emph{Philosophical Magazine}. 5th ser.50: 157-175 }
+#' 
+#' }
+#' 
+#
 #' 
 #' @source
 #' Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 184

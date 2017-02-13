@@ -1,10 +1,10 @@
-Package: stathist
-Title: What the Package Does (one line, title case)
+Package: datums
+Title: Miscellaneous Historically Important Data Sets
 Version: 0.0.1
 Authors@R: person("Jeffrey", "Arnold", role = c("aut", "cre"),
                   email = "jeffrey.arnold@gmail.com")
-Description: Miscellaneous historically important statistics 
-   datasets.
+Description: Miscellaneous data sets that are historically important for
+  statistics or social science.
 Depends: R (>= 3.3.2)
 License: MIT + file LICENSE
 Encoding: UTF-8

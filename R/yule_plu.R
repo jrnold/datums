@@ -1,13 +1,15 @@
 #' Pauperism in England, 1871-1891 (Poor Law Unions)
 #'
 #' 
-#' Data on pauparism used in the 1899 article, \dQuote{An Investigation into the Causes of Changes in Pauperism in England},
+#' Data on pauperism in England, 1871-1881, used in Udney Yule's 1899 paper.
 #' 
-#' by Udny Yule, which is the first use of multiple regression.
+#' This data frame contains Poor Law Union specific variables.
 #' 
-#' The data contains data on pauprism, the proportion of paupers provided for at home
 #' 
-#' vs. the work house, population, and population over 65.
+#' 
+#' See \code{\link{yule_plu}} for further description of the data
+#' 
+#' and the yearly pauprism statistics.
 #' 
 #' 
 #' 
@@ -24,7 +26,7 @@
 #' 
 #' }
 #'
-#'
+#' 
 #' @references
 #' \itemize{
 #' \item{ Yule, G. Udny. 1899. \dQuote{An Investigation into the Causes of Changes in Pauperism in England, Chiefly During the Last Two Intercensal Decades (part I.)}. \emph{Journal of the Royal Statistical Society} \href{https://dx.doi.org/10.2307/2979889}{doi:10.2307/2979889}. }
@@ -32,6 +34,23 @@
 #' \item{ Plewis, I. and Schmidt, E. 2015. \dQuote{Reconstructing G. Udny Yule’s 1899 pauperism dataset}, CMIST Report 2015-3 }
 #' 
 #' }
-#'
+#' 
+#' @references
+#' \itemize{
+#' \item{ Yule, G. Udny. 1899. \dQuote{An Investigation into the Causes of Changes in Pauperism in England, Chiefly During the Last Two Intercensal Decades (part I.)}. \emph{Journal of the Royal Statistical Society} \href{https://dx.doi.org/10.2307/2979889}{doi:10.2307/2979889}. }
+#' \item{ Plewis, I. 2015. \dQuote{Multiple regression, longitudinal data and welfare in the nineteenth century: reflections on Yule (1899)}, submitted to \emph{Journal of the Royal Statistical Society, Series A}. }
+#' \item{ Plewis, I. and Schmidt, E. 2015. \dQuote{Reconstructing G. Udny Yule’s 1899 pauperism dataset}, CMIST Report 2015-3 }
+#' 
+#' }
+#' 
+#' @references
+#' \itemize{
+#' \item{ Yule, G. Udny. 1899. \dQuote{An Investigation into the Causes of Changes in Pauperism in England, Chiefly During the Last Two Intercensal Decades (part I.)}. \emph{Journal of the Royal Statistical Society} \href{https://dx.doi.org/10.2307/2979889}{doi:10.2307/2979889}. }
+#' \item{ Plewis, I. 2015. \dQuote{Multiple regression, longitudinal data and welfare in the nineteenth century: reflections on Yule (1899)}, submitted to \emph{Journal of the Royal Statistical Society, Series A}. }
+#' \item{ Plewis, I. and Schmidt, E. 2015. \dQuote{Reconstructing G. Udny Yule’s 1899 pauperism dataset}, CMIST Report 2015-3 }
+#' 
+#' }
+#' 
+#
 #' 
 "yule_plu"
