@@ -1,0 +1,22 @@
+title: Data on
+description: >
+  Data from eighty textbooks, 1816 to 1976, on their eponymic practices regarding
+  the normal distribution. Each text was coded as whether they called the
+  normal distribution "Gaussian", "Laplacian", or did not use an eponymn.
+variables:
+  - name: year
+    description: Year the text was published.
+  - name: country
+    description: Country in which the text was published.
+  - name: gaussian
+    description: >
+      Did the text refer to the normal distribution as "Gaussian"?
+  - name: laplace
+    description: >
+      Did the text refer to the normal distribution as "Laplace"?
+  - name: noneponymic
+    description: >
+      Did the text not use an eponymn when referring to the normal distribution?
+source: >-
+  Stephen M. Sigler. 1999. \emph{Statistics on the Table: The History of Statistical Concepts and Methods." Harvard.
+  Table 14.1, "Data on Eighty book's eponymic practices", p. 287.

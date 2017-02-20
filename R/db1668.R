@@ -24,9 +24,11 @@
 #' 
 #' }
 #' 
-#
+#'
 #' 
 #' @source
 #' Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}
+#' 
+#'
 #' 
 "db1668"

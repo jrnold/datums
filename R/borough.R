@@ -28,9 +28,11 @@
 #' 
 #' }
 #' 
-#
+#'
 #' 
 #' @source
 #' Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 20
+#' 
+#'
 #' 
 "borough"
