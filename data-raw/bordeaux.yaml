@@ -1,0 +1,29 @@
+title: Prices of Bordeaux Vintages
+description: >
+  Prices of Vintages of Bordeaux Wines in New York auctions.
+  The price is an index based on the wines of multiple chateaus,
+  from a regression of the logarithm price from several thousand auction sales
+  with variables for chateau and vintage years.
+  These data include vintages 1952 to 1980, with missing price values
+  for 1954 and 1956 because they were rarely sold.
+
+variables:
+  - name: vint
+    description: Vintage year
+  - name: price
+    description: "Price of the vintage, as an index (1961=100)."
+  - name: wrain
+    description: Winter (October to March) rain in ML.
+  - name: degrees
+    description: Average temperature (degrees centigrade) April to September.
+  - name: hrain
+    description: "Harvest (August and September) rain in ML"
+  - name: time_sv
+    description: "Time since vintage - relative to 1983"
+
+source: >
+  \url{http://www.liquidasset.com/winedata.html}
+
+references: >
+  - "Ashenfelter, Orley and David Ashmore, and Robert Lalonde. \"Bordeaux Wine Vintage Quality and the Weather." \\emph{Chance}. \\href{https://dx.doi.org/10.1080/09332480.1995.10542468}{doi:10.1080/09332480.1995.10542468}"
+  - "Ashenfelter, Orley. 2008. \"Predicting the Quality and Prices of Bordeaux Wine.\" \\emph{The Economic Journal.} \\href{https://dx.doi.org/10.1111/j.1468-0297.2008.02148.x}{10.1111/j.1468-0297.2008.02148.x}"

@@ -21,16 +21,14 @@
 #' @references
 #' \itemize{
 #' \item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom} }
-#' \item{ Jevons, W. Stanley. 1882. &quot;The Solar-Commercial Cycle.&quot; \emph{Nature}. \href{https://dx.doi.org/10.1038/026226a0}{doi:10.1038/026226a0}.
- }
+#' \item{ Jevons, W. Stanley. 1882. &quot;The Solar-Commercial Cycle.&quot; \emph{Nature}. \href{https://dx.doi.org/10.1038/026226a0}{doi:10.1038/026226a0}. }
 #' 
 #' }
 #' 
 #' @references
 #' \itemize{
 #' \item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom} }
-#' \item{ Jevons, W. Stanley. 1882. &quot;The Solar-Commercial Cycle.&quot; \emph{Nature}. \href{https://dx.doi.org/10.1038/026226a0}{doi:10.1038/026226a0}.
- }
+#' \item{ Jevons, W. Stanley. 1882. &quot;The Solar-Commercial Cycle.&quot; \emph{Nature}. \href{https://dx.doi.org/10.1038/026226a0}{doi:10.1038/026226a0}. }
 #' 
 #' }
 #' 

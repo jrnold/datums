@@ -1,6 +1,7 @@
 library("assertthat")
 library("stringr")
 library("tidyverse")
+library("rubbish")
 
 parse_degrees <- function(x) {
   m <- stringr::str_match(x, "(?:(-?\\d+)d)?\\s*(?:(\\d+(\\.\\d*)?)m)?")

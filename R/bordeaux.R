@@ -1,0 +1,35 @@
+#' Prices of Bordeaux Vintages
+#'
+#' 
+#' Prices of Vintages of Bordeaux Wines in New York auctions. The price is an index based on the wines of multiple chateaus, from a regression of the logarithm price from several thousand auction sales with variables for chateau and vintage years. These data include vintages 1952 to 1980, with missing price values for 1954 and 1956 because they were rarely sold.
+#' 
+#' 
+#' 
+#'
+#' A data frame with 6 columns and 38 rows:
+#' \describe{
+#'  \item{ \code{ vint }}{ \code{ integer }. Vintage year }
+#'  \item{ \code{ price }}{ \code{ numeric }. Price of the vintage, as an index (1961=100). }
+#'  \item{ \code{ wrain }}{ \code{ integer }. Winter (October to March) rain in ML. }
+#'  \item{ \code{ degrees }}{ \code{ numeric }. Average temperature (degrees centigrade) April to September. }
+#'  \item{ \code{ hrain }}{ \code{ integer }. Harvest (August and September) rain in ML }
+#'  \item{ \code{ time_sv }}{ \code{ integer }. Time since vintage - relative to 1983 }
+#' 
+#' }
+#'
+#' 
+#' @references
+#' \itemize{
+#' \item{ - &quot;Ashenfelter, Orley and David Ashmore, and Robert Lalonde. \&quot;Bordeaux Wine Vintage Quality and the Weather.&quot; \\emph{Chance}. \\href{https://dx.doi.org/10.1080/09332480.1995.10542468}{doi:10.1080/09332480.1995.10542468}&quot; - &quot;Ashenfelter, Orley. 2008. \&quot;Predicting the Quality and Prices of Bordeaux Wine.\&quot; \\emph{The Economic Journal.} \\href{https://dx.doi.org/10.1111/j.1468-0297.2008.02148.x}{10.1111/j.1468-0297.2008.02148.x}&quot; }
+#' 
+#' }
+#' 
+#'
+#' 
+#' @source
+#' \url{http://www.liquidasset.com/winedata.html}
+
+#' 
+#'
+#' 
+"bordeaux"
