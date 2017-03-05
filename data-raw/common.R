@@ -13,28 +13,30 @@ parse_degrees <- function(x) {
 write_doc <- function(name, data) {
   metadata <- yaml::yaml.load_file(file.path("data-raw/",
                                              paste0(name, ".yaml")))
-  assert_that(identical(map_chr(metadata$variables, "name"),
-                        names(data)))
-  variables_desc <- map_chr(metadata$variables, "description") %>%
-    str_trim()
   metadata[["name"]] <- name
-  metadata[["variables"]] <-
-    pmap(list(x = data, nm = names(data), desc = variables_desc),
-            function(x, nm, desc) {
-    list(
-      name = nm,
-      type = paste0(class(x), collapse = ", "),
-      description = desc
-    )
-  }) %>% unname
   metadata[["description"]] <-
     str_split(metadata[['description']], "\n")[[1]] %>%
     str_trim() %>%
     as.list()
+  if (is.data.frame(data)) {
+    variables_desc <- map_chr(metadata$variables, "description") %>%
+      str_trim()
+    assert_that(identical(map_chr(metadata$variables, "name"),
+                          names(data)))
+    metadata[["variables"]] <-
+      pmap(list(x = data, nm = names(data), desc = variables_desc),
+           function(x, nm, desc) {
+             list(
+               name = nm,
+               type = paste0(class(x), collapse = ", "),
+               description = desc
+             )
+           }) %>% unname
+    metadata[["nrow"]] <- nrow(data)
+    metadata[["ncol"]] <- ncol(data)
+  }
   template <- paste0(readLines("data-raw/template.R.mustache"),
                      collapse = "\n")
-  metadata[["nrow"]] <- nrow(data)
-  metadata[["ncol"]] <- ncol(data)
   cat(whisker::whisker.render(template, data = metadata),
       file = file.path("R", paste0(name, ".R")))
 }
