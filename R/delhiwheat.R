@@ -8,6 +8,7 @@
 #' 
 #' 
 #'
+#' 
 #' A data frame with 4 columns and 74 rows:
 #' \describe{
 #'  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -16,6 +17,34 @@
 #'  \item{ \code{ crisis }}{ \code{ logical }. Commercial crisis }
 #' 
 #' }
+#' 
+#' A data frame with 4 columns and 74 rows:
+#' \describe{
+#'  \item{ \code{ year }}{ \code{ integer }. Year }
+#'  \item{ \code{ price }}{ \code{ integer }. Price in rupees per 1,000 seers of wheat in Delhi }
+#'  \item{ \code{ maximum }}{ \code{ logical }. Indicator marking a price maxima in a cycle }
+#'  \item{ \code{ crisis }}{ \code{ logical }. Commercial crisis }
+#' 
+#' }
+#' 
+#' A data frame with 4 columns and 74 rows:
+#' \describe{
+#'  \item{ \code{ year }}{ \code{ integer }. Year }
+#'  \item{ \code{ price }}{ \code{ integer }. Price in rupees per 1,000 seers of wheat in Delhi }
+#'  \item{ \code{ maximum }}{ \code{ logical }. Indicator marking a price maxima in a cycle }
+#'  \item{ \code{ crisis }}{ \code{ logical }. Commercial crisis }
+#' 
+#' }
+#' 
+#' A data frame with 4 columns and 74 rows:
+#' \describe{
+#'  \item{ \code{ year }}{ \code{ integer }. Year }
+#'  \item{ \code{ price }}{ \code{ integer }. Price in rupees per 1,000 seers of wheat in Delhi }
+#'  \item{ \code{ maximum }}{ \code{ logical }. Indicator marking a price maxima in a cycle }
+#'  \item{ \code{ crisis }}{ \code{ logical }. Commercial crisis }
+#' 
+#' }
+#' 
 #'
 #' 
 #' @references

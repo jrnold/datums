@@ -149,9 +149,11 @@ yule %>%
   select(ID, variable_year, value) %>%
   separate(variable_year, c("variable", "year"), convert = TRUE) %>%
   spread(variable, value) %>%
-  save_data("yule")
+  mutate(pauper2 = coalesce(pauper2, pauper),
+         Popn = coalesce(Popn2, Popn)) %>%
+  save_data("pauperism_year")
 
 # Poor Law Union data
 yule %>%
   select(-matches("_18\\d\\d$")) %>%
-  save_data("yule_plu")
+  save_data("pauperism_plu")

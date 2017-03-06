@@ -22,6 +22,22 @@ A data frame with 3 columns and 4 rows:
  \item{ \code{ count }}{ \code{ integer }. Counts of births }
 
 }
+
+A data frame with 3 columns and 4 rows:
+\describe{
+ \item{ \code{ female }}{ \code{ integer }. 1 if female, 0 if male. }
+ \item{ \code{ legitimate }}{ \code{ integer }. 1 if a "legitimate birth", 0 if a "illegitimate birth" }
+ \item{ \code{ count }}{ \code{ integer }. Counts of births }
+
+}
+
+A data frame with 3 columns and 4 rows:
+\describe{
+ \item{ \code{ female }}{ \code{ integer }. 1 if female, 0 if male. }
+ \item{ \code{ legitimate }}{ \code{ integer }. 1 if a "legitimate birth", 0 if a "illegitimate birth" }
+ \item{ \code{ count }}{ \code{ integer }. Counts of births }
+
+}
 }
 \references{
 \itemize{

@@ -21,5 +21,45 @@ A data frame with 5 columns and 80 rows:
  \item{ \code{ noneponymic }}{ \code{ logical }. Did the text not use an eponymn when referring to the normal distribution? }
 
 }
+
+A data frame with 5 columns and 80 rows:
+\describe{
+ \item{ \code{ year }}{ \code{ integer }. Year the text was published. }
+ \item{ \code{ country }}{ \code{ character }. Country in which the text was published. }
+ \item{ \code{ gaussian }}{ \code{ logical }. Did the text refer to the normal distribution as "Gaussian"? }
+ \item{ \code{ laplace }}{ \code{ logical }. Did the text refer to the normal distribution as "Laplace"? }
+ \item{ \code{ noneponymic }}{ \code{ logical }. Did the text not use an eponymn when referring to the normal distribution? }
+
+}
+
+A data frame with 5 columns and 80 rows:
+\describe{
+ \item{ \code{ year }}{ \code{ integer }. Year the text was published. }
+ \item{ \code{ country }}{ \code{ character }. Country in which the text was published. }
+ \item{ \code{ gaussian }}{ \code{ logical }. Did the text refer to the normal distribution as "Gaussian"? }
+ \item{ \code{ laplace }}{ \code{ logical }. Did the text refer to the normal distribution as "Laplace"? }
+ \item{ \code{ noneponymic }}{ \code{ logical }. Did the text not use an eponymn when referring to the normal distribution? }
+
+}
+
+A data frame with 5 columns and 80 rows:
+\describe{
+ \item{ \code{ year }}{ \code{ integer }. Year the text was published. }
+ \item{ \code{ country }}{ \code{ character }. Country in which the text was published. }
+ \item{ \code{ gaussian }}{ \code{ logical }. Did the text refer to the normal distribution as "Gaussian"? }
+ \item{ \code{ laplace }}{ \code{ logical }. Did the text refer to the normal distribution as "Laplace"? }
+ \item{ \code{ noneponymic }}{ \code{ logical }. Did the text not use an eponymn when referring to the normal distribution? }
+
+}
+
+A data frame with 5 columns and 80 rows:
+\describe{
+ \item{ \code{ year }}{ \code{ integer }. Year the text was published. }
+ \item{ \code{ country }}{ \code{ character }. Country in which the text was published. }
+ \item{ \code{ gaussian }}{ \code{ logical }. Did the text refer to the normal distribution as "Gaussian"? }
+ \item{ \code{ laplace }}{ \code{ logical }. Did the text refer to the normal distribution as "Laplace"? }
+ \item{ \code{ noneponymic }}{ \code{ logical }. Did the text not use an eponymn when referring to the normal distribution? }
+
+}
 }
 \keyword{datasets}
