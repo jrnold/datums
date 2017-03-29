@@ -1,4 +1,4 @@
-library(httr)
+library("httr")
 library("tidyverse")
 library("haven")
 library("stringr")
@@ -137,11 +137,19 @@ name_replacements <-
   str_replace("([789]1)_2$", "2_18\\1") %>%
   {set_names(names(yule_raw), .)}
 
+convert_labelled <- function(x) {
+  x[!is.finite(x)] <- NA
+  as.character(haven::as_factor(x))
+}
+
 yule <- yule_raw %>%
-  mutate_if(is.labelled, compose(as.character, haven::as_factor)) %>%
+  # many variables have NaN instead of NA
+  mutate_if(is.labelled, convert_labelled) %>%
+  # replace NaN with NA
+  mutate_if(is.numeric, funs(if_else(!is.finite(.), NA_real_, .))) %>%
+  # remove attributes
   mutate_all(as.vector) %>%
   rename_(.dots = name_replacements)
-
 
 # Poor Law Union - Year data
 yule %>%
@@ -149,9 +157,11 @@ yule %>%
   select(ID, variable_year, value) %>%
   separate(variable_year, c("variable", "year"), convert = TRUE) %>%
   spread(variable, value) %>%
-  save_data("yule")
+  mutate(pauper2 = coalesce(pauper2, pauper),
+         Popn = coalesce(Popn2, Popn)) %>%
+  save_data("pauperism_year")
 
 # Poor Law Union data
 yule %>%
   select(-matches("_18\\d\\d$")) %>%
-  save_data("yule_plu")
+  save_data("pauperism_plu")
