@@ -25,6 +25,61 @@ A data frame with 6 columns and 38 rows:
  \item{ \code{ time_sv }}{ \code{ integer }. Time since vintage - relative to 1983 }
 
 }
+
+A data frame with 6 columns and 38 rows:
+\describe{
+ \item{ \code{ vint }}{ \code{ integer }. Vintage year }
+ \item{ \code{ price }}{ \code{ numeric }. Price of the vintage, as an index (1961=100). }
+ \item{ \code{ wrain }}{ \code{ integer }. Winter (October to March) rain in ML. }
+ \item{ \code{ degrees }}{ \code{ numeric }. Average temperature (degrees centigrade) April to September. }
+ \item{ \code{ hrain }}{ \code{ integer }. Harvest (August and September) rain in ML }
+ \item{ \code{ time_sv }}{ \code{ integer }. Time since vintage - relative to 1983 }
+
+}
+
+A data frame with 6 columns and 38 rows:
+\describe{
+ \item{ \code{ vint }}{ \code{ integer }. Vintage year }
+ \item{ \code{ price }}{ \code{ numeric }. Price of the vintage, as an index (1961=100). }
+ \item{ \code{ wrain }}{ \code{ integer }. Winter (October to March) rain in ML. }
+ \item{ \code{ degrees }}{ \code{ numeric }. Average temperature (degrees centigrade) April to September. }
+ \item{ \code{ hrain }}{ \code{ integer }. Harvest (August and September) rain in ML }
+ \item{ \code{ time_sv }}{ \code{ integer }. Time since vintage - relative to 1983 }
+
+}
+
+A data frame with 6 columns and 38 rows:
+\describe{
+ \item{ \code{ vint }}{ \code{ integer }. Vintage year }
+ \item{ \code{ price }}{ \code{ numeric }. Price of the vintage, as an index (1961=100). }
+ \item{ \code{ wrain }}{ \code{ integer }. Winter (October to March) rain in ML. }
+ \item{ \code{ degrees }}{ \code{ numeric }. Average temperature (degrees centigrade) April to September. }
+ \item{ \code{ hrain }}{ \code{ integer }. Harvest (August and September) rain in ML }
+ \item{ \code{ time_sv }}{ \code{ integer }. Time since vintage - relative to 1983 }
+
+}
+
+A data frame with 6 columns and 38 rows:
+\describe{
+ \item{ \code{ vint }}{ \code{ integer }. Vintage year }
+ \item{ \code{ price }}{ \code{ numeric }. Price of the vintage, as an index (1961=100). }
+ \item{ \code{ wrain }}{ \code{ integer }. Winter (October to March) rain in ML. }
+ \item{ \code{ degrees }}{ \code{ numeric }. Average temperature (degrees centigrade) April to September. }
+ \item{ \code{ hrain }}{ \code{ integer }. Harvest (August and September) rain in ML }
+ \item{ \code{ time_sv }}{ \code{ integer }. Time since vintage - relative to 1983 }
+
+}
+
+A data frame with 6 columns and 38 rows:
+\describe{
+ \item{ \code{ vint }}{ \code{ integer }. Vintage year }
+ \item{ \code{ price }}{ \code{ numeric }. Price of the vintage, as an index (1961=100). }
+ \item{ \code{ wrain }}{ \code{ integer }. Winter (October to March) rain in ML. }
+ \item{ \code{ degrees }}{ \code{ numeric }. Average temperature (degrees centigrade) April to September. }
+ \item{ \code{ hrain }}{ \code{ integer }. Harvest (August and September) rain in ML }
+ \item{ \code{ time_sv }}{ \code{ integer }. Time since vintage - relative to 1983 }
+
+}
 }
 \references{
 \itemize{

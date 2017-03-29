@@ -8,6 +8,7 @@
 #' 
 #' 
 #'
+#' 
 #' A data frame with 4 columns and 5 rows:
 #' \describe{
 #'  \item{ \code{ sun_altitude }}{ \code{ numeric }. Sun's altitude in degrees }
@@ -16,6 +17,34 @@
 #'  \item{ \code{ variation }}{ \code{ numeric }. Variation in degrees westerly, between true north (sun azimuth) and magnetic north (magnetic azimuth) }
 #' 
 #' }
+#' 
+#' A data frame with 4 columns and 5 rows:
+#' \describe{
+#'  \item{ \code{ sun_altitude }}{ \code{ numeric }. Sun's altitude in degrees }
+#'  \item{ \code{ magnetic_azimuth }}{ \code{ numeric }. Magnetic azimuth in degrees }
+#'  \item{ \code{ sun_azimuth }}{ \code{ numeric }. Sun's azimuth in degrees }
+#'  \item{ \code{ variation }}{ \code{ numeric }. Variation in degrees westerly, between true north (sun azimuth) and magnetic north (magnetic azimuth) }
+#' 
+#' }
+#' 
+#' A data frame with 4 columns and 5 rows:
+#' \describe{
+#'  \item{ \code{ sun_altitude }}{ \code{ numeric }. Sun's altitude in degrees }
+#'  \item{ \code{ magnetic_azimuth }}{ \code{ numeric }. Magnetic azimuth in degrees }
+#'  \item{ \code{ sun_azimuth }}{ \code{ numeric }. Sun's azimuth in degrees }
+#'  \item{ \code{ variation }}{ \code{ numeric }. Variation in degrees westerly, between true north (sun azimuth) and magnetic north (magnetic azimuth) }
+#' 
+#' }
+#' 
+#' A data frame with 4 columns and 5 rows:
+#' \describe{
+#'  \item{ \code{ sun_altitude }}{ \code{ numeric }. Sun's altitude in degrees }
+#'  \item{ \code{ magnetic_azimuth }}{ \code{ numeric }. Magnetic azimuth in degrees }
+#'  \item{ \code{ sun_azimuth }}{ \code{ numeric }. Sun's azimuth in degrees }
+#'  \item{ \code{ variation }}{ \code{ numeric }. Variation in degrees westerly, between true north (sun azimuth) and magnetic north (magnetic azimuth) }
+#' 
+#' }
+#' 
 #'
 #' 
 #' @references

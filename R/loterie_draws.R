@@ -24,6 +24,7 @@
 #' 
 #' 
 #'
+#' 
 #' A data frame with 5 columns and 6606 rows:
 #' \describe{
 #'  \item{ \code{ X1 }}{ \code{ integer }. First number }
@@ -33,6 +34,47 @@
 #'  \item{ \code{ X5 }}{ \code{ integer }. Fifth number }
 #' 
 #' }
+#' 
+#' A data frame with 5 columns and 6606 rows:
+#' \describe{
+#'  \item{ \code{ X1 }}{ \code{ integer }. First number }
+#'  \item{ \code{ X2 }}{ \code{ integer }. Second number }
+#'  \item{ \code{ X3 }}{ \code{ integer }. Third number }
+#'  \item{ \code{ X4 }}{ \code{ integer }. Fourth number }
+#'  \item{ \code{ X5 }}{ \code{ integer }. Fifth number }
+#' 
+#' }
+#' 
+#' A data frame with 5 columns and 6606 rows:
+#' \describe{
+#'  \item{ \code{ X1 }}{ \code{ integer }. First number }
+#'  \item{ \code{ X2 }}{ \code{ integer }. Second number }
+#'  \item{ \code{ X3 }}{ \code{ integer }. Third number }
+#'  \item{ \code{ X4 }}{ \code{ integer }. Fourth number }
+#'  \item{ \code{ X5 }}{ \code{ integer }. Fifth number }
+#' 
+#' }
+#' 
+#' A data frame with 5 columns and 6606 rows:
+#' \describe{
+#'  \item{ \code{ X1 }}{ \code{ integer }. First number }
+#'  \item{ \code{ X2 }}{ \code{ integer }. Second number }
+#'  \item{ \code{ X3 }}{ \code{ integer }. Third number }
+#'  \item{ \code{ X4 }}{ \code{ integer }. Fourth number }
+#'  \item{ \code{ X5 }}{ \code{ integer }. Fifth number }
+#' 
+#' }
+#' 
+#' A data frame with 5 columns and 6606 rows:
+#' \describe{
+#'  \item{ \code{ X1 }}{ \code{ integer }. First number }
+#'  \item{ \code{ X2 }}{ \code{ integer }. Second number }
+#'  \item{ \code{ X3 }}{ \code{ integer }. Third number }
+#'  \item{ \code{ X4 }}{ \code{ integer }. Fourth number }
+#'  \item{ \code{ X5 }}{ \code{ integer }. Fifth number }
+#' 
+#' }
+#' 
 #'
 #' 
 #' @references

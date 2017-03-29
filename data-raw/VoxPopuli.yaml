@@ -1,0 +1,28 @@
+title: "Votes in a cow weight-judging competition"
+description: >+
+  Distribution of 787 guesses in a cow weight-judging competition.
+  These data was used by Galton to in a series of letters to
+  \emph{Nature} to illustrate the wisdom of crowds.
+
+  The actual weight of the cow was 1,198 pounds.
+
+variables:
+  - name: quantile
+    description: Quantile of the distribution of guesses.
+  - name: estimate
+    description: Value of the guess (lbs.)
+  - name: error
+    description: >
+      Difference between the guess and the actual weight of the cow.
+  - name: normal
+    description: >
+      Quantile values of a normal distribution with a median of 1,207 lbs. and a
+      probable error (half the interquartile range) of 37 lbs.
+
+source:
+  - "Galton, Francis. 1907. \"Vox Populi.\" \\emph{Nature}. \\href{http://dx.doi.org/10.1038/075414a0}{doi:10.1038/075414a0}"
+references:
+  - "Galton, Francis. 1907. \"One Value, One Vote.\" \\emph{Nature}. \\href{http://dx.doi.org/10.1038/075414a0}{doi:10.1038/075414a0}"
+  - "Galton, Francis. 1907. \"Ballot Box.\" \\emph{Nature} \\href{http://dx.doi.org/10.1038/075509e0}{doi:10.1038/075509e0}"
+  - "Hooke, R. H. 1907. \"Mean or Median.\" \\emph{Nature}.  \\href{http://dx.doi.org/10.1038/075487a0}{doi:10.1038/075487a0}"
+  - "Yule, G. Udny. 1907. \"Mean or Median.\" \\emph{Nature}.  \\href{http://dx.doi.org/10.1038/075534b0}{doi:10.1038/075534b0}"

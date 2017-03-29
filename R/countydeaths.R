@@ -6,6 +6,7 @@
 #' 
 #' 
 #'
+#' 
 #' A data frame with 3 columns and 48 rows:
 #' \describe{
 #'  \item{ \code{ county }}{ \code{ character }. County name }
@@ -13,6 +14,23 @@
 #'  \item{ \code{ death_rate }}{ \code{ numeric }. Annual deaths per thousand in that county }
 #' 
 #' }
+#' 
+#' A data frame with 3 columns and 48 rows:
+#' \describe{
+#'  \item{ \code{ county }}{ \code{ character }. County name }
+#'  \item{ \code{ year }}{ \code{ integer }. Year }
+#'  \item{ \code{ death_rate }}{ \code{ numeric }. Annual deaths per thousand in that county }
+#' 
+#' }
+#' 
+#' A data frame with 3 columns and 48 rows:
+#' \describe{
+#'  \item{ \code{ county }}{ \code{ character }. County name }
+#'  \item{ \code{ year }}{ \code{ integer }. Year }
+#'  \item{ \code{ death_rate }}{ \code{ numeric }. Annual deaths per thousand in that county }
+#' 
+#' }
+#' 
 #'
 #' 
 #' @references

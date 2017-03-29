@@ -8,6 +8,7 @@
 #' 
 #' 
 #'
+#' 
 #' A data frame with 4 columns and 13 rows:
 #' \describe{
 #'  \item{ \code{ n }}{ \code{ integer }. Number of dice showing five or six in the throw of 12 dice. }
@@ -16,6 +17,34 @@
 #'  \item{ \code{ pearson }}{ \code{ integer }. Pearson's corrected theoretical values using \eqn{\theta = 0.3377}{theta = 0.3377}. }
 #' 
 #' }
+#' 
+#' A data frame with 4 columns and 13 rows:
+#' \describe{
+#'  \item{ \code{ n }}{ \code{ integer }. Number of dice showing five or six in the throw of 12 dice. }
+#'  \item{ \code{ observed }}{ \code{ integer }. Number observed in Weldon's data }
+#'  \item{ \code{ theoretical }}{ \code{ integer }. Theoretical values assuming \eqn{\theta = 1/3}{theta = 1/3}. }
+#'  \item{ \code{ pearson }}{ \code{ integer }. Pearson's corrected theoretical values using \eqn{\theta = 0.3377}{theta = 0.3377}. }
+#' 
+#' }
+#' 
+#' A data frame with 4 columns and 13 rows:
+#' \describe{
+#'  \item{ \code{ n }}{ \code{ integer }. Number of dice showing five or six in the throw of 12 dice. }
+#'  \item{ \code{ observed }}{ \code{ integer }. Number observed in Weldon's data }
+#'  \item{ \code{ theoretical }}{ \code{ integer }. Theoretical values assuming \eqn{\theta = 1/3}{theta = 1/3}. }
+#'  \item{ \code{ pearson }}{ \code{ integer }. Pearson's corrected theoretical values using \eqn{\theta = 0.3377}{theta = 0.3377}. }
+#' 
+#' }
+#' 
+#' A data frame with 4 columns and 13 rows:
+#' \describe{
+#'  \item{ \code{ n }}{ \code{ integer }. Number of dice showing five or six in the throw of 12 dice. }
+#'  \item{ \code{ observed }}{ \code{ integer }. Number observed in Weldon's data }
+#'  \item{ \code{ theoretical }}{ \code{ integer }. Theoretical values assuming \eqn{\theta = 1/3}{theta = 1/3}. }
+#'  \item{ \code{ pearson }}{ \code{ integer }. Pearson's corrected theoretical values using \eqn{\theta = 0.3377}{theta = 0.3377}. }
+#' 
+#' }
+#' 
 #'
 #' 
 #' @references

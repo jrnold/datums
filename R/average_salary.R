@@ -10,11 +10,13 @@
 #' 
 #' 
 #'
+#' 
 #' A data frame with 1 columns and 25 rows:
 #' \describe{
 #'  \item{ \code{ salary }}{ \code{ numeric }. Salary in thousands of dollars }
 #' 
 #' }
+#' 
 #'
 #' 
 #'

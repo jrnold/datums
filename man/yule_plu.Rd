@@ -22,6 +22,80 @@ and the yearly pauprism statistics.
 
 
 
+
+
+A data frame with 7 columns and 599 rows:
+\describe{
+ \item{ \code{ ID }}{ \code{ numeric }. ID }
+ \item{ \code{ Union }}{ \code{ character }. Union }
+ \item{ \code{ Region }}{ \code{ character }. Region }
+ \item{ \code{ County }}{ \code{ character }. County }
+ \item{ \code{ Type }}{ \code{ character }. Yule's Rural/Urban Classification of Unions }
+ \item{ \code{ BoothGroup }}{ \code{ character }. Booth's Classification of Unions }
+ \item{ \code{ BoothDensity }}{ \code{ numeric }. Booth's Population Density }
+
+}
+
+A data frame with 7 columns and 599 rows:
+\describe{
+ \item{ \code{ ID }}{ \code{ numeric }. ID }
+ \item{ \code{ Union }}{ \code{ character }. Union }
+ \item{ \code{ Region }}{ \code{ character }. Region }
+ \item{ \code{ County }}{ \code{ character }. County }
+ \item{ \code{ Type }}{ \code{ character }. Yule's Rural/Urban Classification of Unions }
+ \item{ \code{ BoothGroup }}{ \code{ character }. Booth's Classification of Unions }
+ \item{ \code{ BoothDensity }}{ \code{ numeric }. Booth's Population Density }
+
+}
+
+A data frame with 7 columns and 599 rows:
+\describe{
+ \item{ \code{ ID }}{ \code{ numeric }. ID }
+ \item{ \code{ Union }}{ \code{ character }. Union }
+ \item{ \code{ Region }}{ \code{ character }. Region }
+ \item{ \code{ County }}{ \code{ character }. County }
+ \item{ \code{ Type }}{ \code{ character }. Yule's Rural/Urban Classification of Unions }
+ \item{ \code{ BoothGroup }}{ \code{ character }. Booth's Classification of Unions }
+ \item{ \code{ BoothDensity }}{ \code{ numeric }. Booth's Population Density }
+
+}
+
+A data frame with 7 columns and 599 rows:
+\describe{
+ \item{ \code{ ID }}{ \code{ numeric }. ID }
+ \item{ \code{ Union }}{ \code{ character }. Union }
+ \item{ \code{ Region }}{ \code{ character }. Region }
+ \item{ \code{ County }}{ \code{ character }. County }
+ \item{ \code{ Type }}{ \code{ character }. Yule's Rural/Urban Classification of Unions }
+ \item{ \code{ BoothGroup }}{ \code{ character }. Booth's Classification of Unions }
+ \item{ \code{ BoothDensity }}{ \code{ numeric }. Booth's Population Density }
+
+}
+
+A data frame with 7 columns and 599 rows:
+\describe{
+ \item{ \code{ ID }}{ \code{ numeric }. ID }
+ \item{ \code{ Union }}{ \code{ character }. Union }
+ \item{ \code{ Region }}{ \code{ character }. Region }
+ \item{ \code{ County }}{ \code{ character }. County }
+ \item{ \code{ Type }}{ \code{ character }. Yule's Rural/Urban Classification of Unions }
+ \item{ \code{ BoothGroup }}{ \code{ character }. Booth's Classification of Unions }
+ \item{ \code{ BoothDensity }}{ \code{ numeric }. Booth's Population Density }
+
+}
+
+A data frame with 7 columns and 599 rows:
+\describe{
+ \item{ \code{ ID }}{ \code{ numeric }. ID }
+ \item{ \code{ Union }}{ \code{ character }. Union }
+ \item{ \code{ Region }}{ \code{ character }. Region }
+ \item{ \code{ County }}{ \code{ character }. County }
+ \item{ \code{ Type }}{ \code{ character }. Yule's Rural/Urban Classification of Unions }
+ \item{ \code{ BoothGroup }}{ \code{ character }. Booth's Classification of Unions }
+ \item{ \code{ BoothDensity }}{ \code{ numeric }. Booth's Population Density }
+
+}
+
 A data frame with 7 columns and 599 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }

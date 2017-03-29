@@ -39,6 +39,35 @@ extrait \tab one \tab 15
 
 }
 
+
+
+A data frame with 4 columns and 327 rows:
+\describe{
+ \item{ \code{ X1 }}{ \code{ integer }. First number }
+ \item{ \code{ X2 }}{ \code{ integer }. Second number }
+ \item{ \code{ X3 }}{ \code{ integer }. Third number }
+ \item{ \code{ X4 }}{ \code{ integer }. Fourth number }
+
+}
+
+A data frame with 4 columns and 327 rows:
+\describe{
+ \item{ \code{ X1 }}{ \code{ integer }. First number }
+ \item{ \code{ X2 }}{ \code{ integer }. Second number }
+ \item{ \code{ X3 }}{ \code{ integer }. Third number }
+ \item{ \code{ X4 }}{ \code{ integer }. Fourth number }
+
+}
+
+A data frame with 4 columns and 327 rows:
+\describe{
+ \item{ \code{ X1 }}{ \code{ integer }. First number }
+ \item{ \code{ X2 }}{ \code{ integer }. Second number }
+ \item{ \code{ X3 }}{ \code{ integer }. Third number }
+ \item{ \code{ X4 }}{ \code{ integer }. Fourth number }
+
+}
+
 A data frame with 4 columns and 327 rows:
 \describe{
  \item{ \code{ X1 }}{ \code{ integer }. First number }
