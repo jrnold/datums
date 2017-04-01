@@ -1,6 +1,5 @@
 # datums
 
-Miscellaneous data sets from historically important works in statistics or 
-social science.
+A curated collection of data sets from historically important (or interesting) works in statistics and social science.
 
-Also see [HistData](https://cran.r-project.org/package=HistData). 
+See [HistData](https://cran.r-project.org/package=HistData) for a similar collection.

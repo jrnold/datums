@@ -2,7 +2,7 @@ unescape_html <- function(str){
   xml2::xml_text(xml2::read_html(paste0("<x>", str, "</x>")))
 }
 
-{
+read_lindley <- function() {
   lines <- readLines("http://www.liquidasset.com/lindley.htm")
 
   judges <- lines[231:241] %>%
@@ -38,11 +38,39 @@ unescape_html <- function(str){
     select(-country)
 
   chardonnary_scores <- str_c(lines[276:285], collapse = "\n") %>%
-    read_table(col_names = c("wine", 1:11)) %>%
+    read_table(col_names = c("wine", 1:11),
+               col_types = cols(
+                 wine = col_character(),
+                 "1" = col_double(),
+                 "2" = col_double(),
+                 "3" = col_double(),
+                 "4" = col_double(),
+                 "5" = col_double(),
+                 "6" = col_double(),
+                 "7" = col_double(),
+                 "8" = col_double(),
+                 "9" = col_double(),
+                 "10" = col_double(),
+                 "11" = col_double()
+               )) %>%
     gather(taster, score, -wine)
 
   cab_scores <- str_c(lines[292:301], collapse = "\n") %>%
-    read_table(col_names = c("wine", 1:11)) %>%
+    read_table(col_names = c("wine", 1:11),
+               col_types = cols(
+                 wine = col_character(),
+                 "1" = col_double(),
+                 "2" = col_double(),
+                 "3" = col_double(),
+                 "4" = col_double(),
+                 "5" = col_double(),
+                 "6" = col_double(),
+                 "7" = col_double(),
+                 "8" = col_double(),
+                 "9" = col_double(),
+                 "10" = col_double(),
+                 "11" = col_double()
+               )) %>%
     gather(taster, score, -wine)
 
   scores <-
@@ -52,4 +80,6 @@ unescape_html <- function(str){
   list(judges = judges,
        wines = wines,
        scores = scores)
-} %>% save_data("winetasting")
+}
+
+read_lindley() %>% save_data("winetasting")
