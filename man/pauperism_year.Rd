@@ -4,7 +4,7 @@
 \name{pauperism_year}
 \alias{pauperism_year}
 \title{Pauperism in England, 1871-1891 (Yearly Data)}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1797 rows and 36 columns.}
+\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1797 rows and 38 columns.}
 \usage{
 pauperism_year
 }
@@ -22,13 +22,13 @@ of England for the years: 1871, 1881, and 1891.
 
 
 
-See \code{\link{yule_plu}} for variables related to the Poor Law Unions.
+See \code{\link{pauperism_plu}} for variables related to the Poor Law Unions.
 
 
 
 
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -66,10 +66,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -107,10 +109,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -148,10 +152,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -189,10 +195,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -230,10 +238,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -271,10 +281,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -312,10 +324,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -353,10 +367,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -394,10 +410,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -435,10 +453,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -476,10 +496,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -517,10 +539,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -558,10 +582,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -599,10 +625,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -640,10 +668,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -681,10 +711,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -722,10 +754,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -763,10 +797,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -804,10 +840,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -845,10 +883,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -886,10 +926,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -927,10 +969,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -968,10 +1012,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -1009,10 +1055,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -1050,10 +1098,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -1091,10 +1141,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -1132,10 +1184,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -1173,10 +1227,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -1214,10 +1270,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -1255,10 +1313,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -1296,10 +1356,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -1337,10 +1399,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -1378,10 +1442,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -1419,10 +1485,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -1460,10 +1528,12 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 
-A data frame with 36 columns and 1797 rows:
+A data frame with 38 columns and 1797 rows:
 \describe{
  \item{ \code{ ID }}{ \code{ numeric }. ID }
  \item{ \code{ year }}{ \code{ integer }. Year }
@@ -1501,6 +1571,94 @@ A data frame with 36 columns and 1797 rows:
  \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
  \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
  \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
+
+}
+
+A data frame with 38 columns and 1797 rows:
+\describe{
+ \item{ \code{ ID }}{ \code{ numeric }. ID }
+ \item{ \code{ year }}{ \code{ integer }. Year }
+ \item{ \code{ adultchabI }}{ \code{ numeric }. Ratio of Adult to Child Able-Bodied In-Door Paupers }
+ \item{ \code{ adultchabO }}{ \code{ numeric }. Ratio of Adult to Child Able-Bodied Out-Door Paupers }
+ \item{ \code{ adultchnotabI }}{ \code{ numeric }. Ratio of Adult to Child Not Able-Bodied In-Door Paupers }
+ \item{ \code{ adultchnotabO }}{ \code{ numeric }. Ratio of Adult to Child Not Able-Bodied Out-Door Paupers }
+ \item{ \code{ ChABI }}{ \code{ numeric }. Child Able-Bodied In-Door Paupers }
+ \item{ \code{ ChABO }}{ \code{ numeric }. Child Able-Bodied Out-Door Paupers }
+ \item{ \code{ ChNotABI }}{ \code{ numeric }. Child Not Able-Bodied In-Door Paupers }
+ \item{ \code{ ChNotABO }}{ \code{ numeric }. Child Not Able-Bodied Out-Door Paupers }
+ \item{ \code{ F65 }}{ \code{ numeric }. Females Aged 65+ in the Population }
+ \item{ \code{ FABI }}{ \code{ numeric }. Female Able-Bodied In-Door Paupers }
+ \item{ \code{ FABO }}{ \code{ numeric }. Female Able-Bodied Out-Door Paupers }
+ \item{ \code{ FNotABI }}{ \code{ numeric }. Female Not Able-Bodied In-Door Paupers }
+ \item{ \code{ FNotABO }}{ \code{ numeric }. Female Not Able-Bodied Out-Door Paupers }
+ \item{ \code{ M65 }}{ \code{ numeric }. Males Aged 65+ in the Population }
+ \item{ \code{ MABI }}{ \code{ numeric }. Male Able-Bodied In-Door Paupers }
+ \item{ \code{ MABO }}{ \code{ numeric }. Male Able-Bodied Out-Door Paupers }
+ \item{ \code{ mfabI }}{ \code{ numeric }. Ratio of Male to Female Able-Bodied In-Door Paupers }
+ \item{ \code{ mfabO }}{ \code{ numeric }. Ratio of Male to Female Able-Bodied Out-Door Paupers }
+ \item{ \code{ mfnotabI }}{ \code{ numeric }. Ratio of Male to Female Not Able-Bodied In-Door Paupers }
+ \item{ \code{ mfnotabO }}{ \code{ numeric }. Ratio of Male to Female Not Able-Bodied Out-Door Paupers }
+ \item{ \code{ MNotABI }}{ \code{ numeric }. Male Not Able-Bodied In-Door Paupers }
+ \item{ \code{ MNotABO }}{ \code{ numeric }. Male Not Able-Bodied Out-Door Paupers }
+ \item{ \code{ outratio }}{ \code{ numeric }. Ratio of Out-Door Paupers to In-Door Paupers }
+ \item{ \code{ outratiodiff }}{ \code{ numeric }. Ratio of outratio91 to outratio81 }
+ \item{ \code{ pauper }}{ \code{ numeric }. Proportion of Paupers in the Population }
+ \item{ \code{ pauper2 }}{ \code{ numeric }. Proportion of Paupers in the Population correcting for border changes. }
+ \item{ \code{ paupratiodiff }}{ \code{ numeric }. Ratio of Pauperism Proportion to previous decade }
+ \item{ \code{ Popn }}{ \code{ numeric }. Population (from Census Population Abstracts) }
+ \item{ \code{ Popn2 }}{ \code{ numeric }. Population allowing for boundary changes. This is the population number used by Yule. }
+ \item{ \code{ PopnF }}{ \code{ numeric }. Female Population }
+ \item{ \code{ PopnM }}{ \code{ numeric }. Male Population }
+ \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
+ \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
+ \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
+
+}
+
+A data frame with 38 columns and 1797 rows:
+\describe{
+ \item{ \code{ ID }}{ \code{ numeric }. ID }
+ \item{ \code{ year }}{ \code{ integer }. Year }
+ \item{ \code{ adultchabI }}{ \code{ numeric }. Ratio of Adult to Child Able-Bodied In-Door Paupers }
+ \item{ \code{ adultchabO }}{ \code{ numeric }. Ratio of Adult to Child Able-Bodied Out-Door Paupers }
+ \item{ \code{ adultchnotabI }}{ \code{ numeric }. Ratio of Adult to Child Not Able-Bodied In-Door Paupers }
+ \item{ \code{ adultchnotabO }}{ \code{ numeric }. Ratio of Adult to Child Not Able-Bodied Out-Door Paupers }
+ \item{ \code{ ChABI }}{ \code{ numeric }. Child Able-Bodied In-Door Paupers }
+ \item{ \code{ ChABO }}{ \code{ numeric }. Child Able-Bodied Out-Door Paupers }
+ \item{ \code{ ChNotABI }}{ \code{ numeric }. Child Not Able-Bodied In-Door Paupers }
+ \item{ \code{ ChNotABO }}{ \code{ numeric }. Child Not Able-Bodied Out-Door Paupers }
+ \item{ \code{ F65 }}{ \code{ numeric }. Females Aged 65+ in the Population }
+ \item{ \code{ FABI }}{ \code{ numeric }. Female Able-Bodied In-Door Paupers }
+ \item{ \code{ FABO }}{ \code{ numeric }. Female Able-Bodied Out-Door Paupers }
+ \item{ \code{ FNotABI }}{ \code{ numeric }. Female Not Able-Bodied In-Door Paupers }
+ \item{ \code{ FNotABO }}{ \code{ numeric }. Female Not Able-Bodied Out-Door Paupers }
+ \item{ \code{ M65 }}{ \code{ numeric }. Males Aged 65+ in the Population }
+ \item{ \code{ MABI }}{ \code{ numeric }. Male Able-Bodied In-Door Paupers }
+ \item{ \code{ MABO }}{ \code{ numeric }. Male Able-Bodied Out-Door Paupers }
+ \item{ \code{ mfabI }}{ \code{ numeric }. Ratio of Male to Female Able-Bodied In-Door Paupers }
+ \item{ \code{ mfabO }}{ \code{ numeric }. Ratio of Male to Female Able-Bodied Out-Door Paupers }
+ \item{ \code{ mfnotabI }}{ \code{ numeric }. Ratio of Male to Female Not Able-Bodied In-Door Paupers }
+ \item{ \code{ mfnotabO }}{ \code{ numeric }. Ratio of Male to Female Not Able-Bodied Out-Door Paupers }
+ \item{ \code{ MNotABI }}{ \code{ numeric }. Male Not Able-Bodied In-Door Paupers }
+ \item{ \code{ MNotABO }}{ \code{ numeric }. Male Not Able-Bodied Out-Door Paupers }
+ \item{ \code{ outratio }}{ \code{ numeric }. Ratio of Out-Door Paupers to In-Door Paupers }
+ \item{ \code{ outratiodiff }}{ \code{ numeric }. Ratio of outratio91 to outratio81 }
+ \item{ \code{ pauper }}{ \code{ numeric }. Proportion of Paupers in the Population }
+ \item{ \code{ pauper2 }}{ \code{ numeric }. Proportion of Paupers in the Population correcting for border changes. }
+ \item{ \code{ paupratiodiff }}{ \code{ numeric }. Ratio of Pauperism Proportion to previous decade }
+ \item{ \code{ Popn }}{ \code{ numeric }. Population (from Census Population Abstracts) }
+ \item{ \code{ Popn2 }}{ \code{ numeric }. Population allowing for boundary changes. This is the population number used by Yule. }
+ \item{ \code{ PopnF }}{ \code{ numeric }. Female Population }
+ \item{ \code{ PopnM }}{ \code{ numeric }. Male Population }
+ \item{ \code{ popratiodiff }}{ \code{ numeric }. Ratio of Population to previous decade }
+ \item{ \code{ PropF65 }}{ \code{ numeric }. Proportion of Females Aged 65+ in the Female Population }
+ \item{ \code{ PropM65 }}{ \code{ numeric }. Proportion of Males Aged 65+ in the Male Population }
+ \item{ \code{ Prop65 }}{ \code{ numeric }. Proportion of the Population Aged 65+ }
+ \item{ \code{ oldratiodiff }}{ \code{ numeric }. Ratio of the Proprotion of Population Aged 65+ to the previous decade. }
 
 }
 }

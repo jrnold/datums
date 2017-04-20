@@ -6,7 +6,7 @@ description: |
   vs. the work house, population, and population over 65 for the Poor Law Unions
   of England for the years: 1871, 1881, and 1891.
 
-  See \code{\link{yule_plu}} for variables related to the Poor Law Unions.
+  See \code{\link{pauperism_plu}} for variables related to the Poor Law Unions.
 
 variables:
 - name: ID
@@ -64,13 +64,16 @@ variables:
 - name: pauper
   description: Proportion of Paupers in the Population
 - name: pauper2
-  description: Proportion of Paupers in the Population correcting for border changes.
+  description: >
+    Proportion of Paupers in the Population correcting for border changes.
 - name: paupratiodiff
   description: Ratio of Pauperism Proportion to previous decade
 - name: Popn
   description: Population (from Census Population Abstracts)
 - name: Popn2
-  description: Population allowing for boundary changes. This is the population number used by Yule.
+  description: >
+    Population allowing for boundary changes.
+    This is the population number used by Yule.
 - name: PopnF
   description: Female Population
 - name: PopnM
@@ -81,3 +84,7 @@ variables:
   description: Proportion of Females Aged 65+ in the Female Population
 - name: PropM65
   description: Proportion of Males Aged 65+ in the Male Population
+- name: Prop65
+  description: Proportion of the Population Aged 65+
+- name: oldratiodiff
+  description: Ratio of the Proprotion of Population Aged 65+ to the previous decade.

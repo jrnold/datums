@@ -16,7 +16,7 @@ This data frame contains Poor Law Union specific variables.
 
 
 
-See \code{\link{yule_plu}} for further description of the data
+See \code{\link{pauperism_year}} for further description of the data
 
 and the yearly pauprism statistics.
 

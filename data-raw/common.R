@@ -29,7 +29,7 @@ write_doc <- function(name, data) {
              list(
                name = nm,
                type = paste0(class(x), collapse = ", "),
-               description = desc
+               description = str_trim(str_c(desc, collapse = " "))
              )
            }) %>% unname
     metadata[["nrow"]] <- nrow(data)

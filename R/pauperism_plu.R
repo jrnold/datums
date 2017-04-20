@@ -7,7 +7,7 @@
 #' 
 #' 
 #' 
-#' See \code{\link{yule_plu}} for further description of the data
+#' See \code{\link{pauperism_year}} for further description of the data
 #' 
 #' and the yearly pauprism statistics.
 #' 

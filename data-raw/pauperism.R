@@ -151,6 +151,13 @@ yule <- yule_raw %>%
   mutate_all(as.vector) %>%
   rename_(.dots = name_replacements)
 
+pctratiodiff <- function(x) {
+  z <- 100 * (x / lag(x))
+  # if lag(x) == 0 then z is missing
+  # z[!is.finite(z)] <- NA_real_
+  z
+}
+
 # Poor Law Union - Year data
 yule %>%
   gather(variable_year, value, matches("_18\\d{2}$")) %>%
@@ -158,7 +165,15 @@ yule %>%
   separate(variable_year, c("variable", "year"), convert = TRUE) %>%
   spread(variable, value) %>%
   mutate(pauper2 = coalesce(pauper2, pauper),
-         Popn = coalesce(Popn2, Popn)) %>%
+         Popn2 = coalesce(Popn2, Popn),
+         # proportion of total population 65 and above
+         Prop65 = (PopnF * PropF65 + PopnM * PropM65) / (PopnF + PopnM),
+         year = as.integer(year)) %>%
+  arrange(ID, year) %>%
+  group_by(ID) %>%
+  mutate(oldratiodiff = pctratiodiff(Prop65)) %>%
+  ungroup() %>%
+  arrange(ID, year) %>%
   save_data("pauperism_year")
 
 # Poor Law Union data
