@@ -4,7 +4,10 @@
 \name{weldon}
 \alias{weldon}
 \title{Weldon's Dice}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 13 rows and 4 columns.}
+\format{A data frame with 4 columns and 13 rows:
+\describe{
+ \item{ \code{ n }}{ \code{ integer }. Number of dice showing five or six in the throw of 12 dice. } \item{ \code{ observed }}{ \code{ integer }. Number observed in Weldon's data } \item{ \code{ theoretical }}{ \code{ integer }. Theoretical values assuming \eqn{\theta = 1/3}{theta = 1/3}. } \item{ \code{ pearson }}{ \code{ integer }. Pearson's corrected theoretical values using \eqn{\theta = 0.3377}{theta = 0.3377}. }
+}}
 \source{
 Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 184
 }
@@ -13,43 +16,6 @@ weldon
 }
 \description{
 Frank Weldon threw 12 dice 26,306 times and for each throw counted the number of dice that showed a five or six. Pearson analyzed this data in 1900.
-}
-\details{
-A data frame with 4 columns and 13 rows:
-\describe{
- \item{ \code{ n }}{ \code{ integer }. Number of dice showing five or six in the throw of 12 dice. }
- \item{ \code{ observed }}{ \code{ integer }. Number observed in Weldon's data }
- \item{ \code{ theoretical }}{ \code{ integer }. Theoretical values assuming \eqn{\theta = 1/3}{theta = 1/3}. }
- \item{ \code{ pearson }}{ \code{ integer }. Pearson's corrected theoretical values using \eqn{\theta = 0.3377}{theta = 0.3377}. }
-
-}
-
-A data frame with 4 columns and 13 rows:
-\describe{
- \item{ \code{ n }}{ \code{ integer }. Number of dice showing five or six in the throw of 12 dice. }
- \item{ \code{ observed }}{ \code{ integer }. Number observed in Weldon's data }
- \item{ \code{ theoretical }}{ \code{ integer }. Theoretical values assuming \eqn{\theta = 1/3}{theta = 1/3}. }
- \item{ \code{ pearson }}{ \code{ integer }. Pearson's corrected theoretical values using \eqn{\theta = 0.3377}{theta = 0.3377}. }
-
-}
-
-A data frame with 4 columns and 13 rows:
-\describe{
- \item{ \code{ n }}{ \code{ integer }. Number of dice showing five or six in the throw of 12 dice. }
- \item{ \code{ observed }}{ \code{ integer }. Number observed in Weldon's data }
- \item{ \code{ theoretical }}{ \code{ integer }. Theoretical values assuming \eqn{\theta = 1/3}{theta = 1/3}. }
- \item{ \code{ pearson }}{ \code{ integer }. Pearson's corrected theoretical values using \eqn{\theta = 0.3377}{theta = 0.3377}. }
-
-}
-
-A data frame with 4 columns and 13 rows:
-\describe{
- \item{ \code{ n }}{ \code{ integer }. Number of dice showing five or six in the throw of 12 dice. }
- \item{ \code{ observed }}{ \code{ integer }. Number observed in Weldon's data }
- \item{ \code{ theoretical }}{ \code{ integer }. Theoretical values assuming \eqn{\theta = 1/3}{theta = 1/3}. }
- \item{ \code{ pearson }}{ \code{ integer }. Pearson's corrected theoretical values using \eqn{\theta = 0.3377}{theta = 0.3377}. }
-
-}
 }
 \references{
 \itemize{

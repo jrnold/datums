@@ -4,7 +4,10 @@
 \name{VoxPopuli}
 \alias{VoxPopuli}
 \title{Votes in a cow weight-judging competition}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 19 rows and 4 columns.}
+\format{A data frame with 4 columns and 19 rows:
+\describe{
+ \item{ \code{ quantile }}{ \code{ numeric }. Quantile of the distribution of guesses. } \item{ \code{ estimate }}{ \code{ numeric }. Value of the guess (lbs.) } \item{ \code{ error }}{ \code{ numeric }. Difference between the guess and the actual weight of the cow. } \item{ \code{ normal }}{ \code{ numeric }. Quantile values of a normal distribution with a median of 1,207 lbs. and a probable error (half the interquartile range) of 37 lbs. }
+}}
 \source{
 Galton, Francis. 1907. "Vox Populi." \emph{Nature}. \href{http://dx.doi.org/10.1038/075414a0}{doi:10.1038/075414a0}
 }
@@ -13,51 +16,7 @@ VoxPopuli
 }
 \description{
 Distribution of 787 guesses in a cow weight-judging competition. These data was used by Galton to in a series of letters to \emph{Nature} to illustrate the wisdom of crowds.
-}
-\details{
 The actual weight of the cow was 1,198 pounds.
-
-
-
-
-
-
-
-A data frame with 4 columns and 19 rows:
-\describe{
- \item{ \code{ quantile }}{ \code{ numeric }. Quantile of the distribution of guesses. }
- \item{ \code{ estimate }}{ \code{ numeric }. Value of the guess (lbs.) }
- \item{ \code{ error }}{ \code{ numeric }. Difference between the guess and the actual weight of the cow. }
- \item{ \code{ normal }}{ \code{ numeric }. Quantile values of a normal distribution with a median of 1,207 lbs. and a probable error (half the interquartile range) of 37 lbs. }
-
-}
-
-A data frame with 4 columns and 19 rows:
-\describe{
- \item{ \code{ quantile }}{ \code{ numeric }. Quantile of the distribution of guesses. }
- \item{ \code{ estimate }}{ \code{ numeric }. Value of the guess (lbs.) }
- \item{ \code{ error }}{ \code{ numeric }. Difference between the guess and the actual weight of the cow. }
- \item{ \code{ normal }}{ \code{ numeric }. Quantile values of a normal distribution with a median of 1,207 lbs. and a probable error (half the interquartile range) of 37 lbs. }
-
-}
-
-A data frame with 4 columns and 19 rows:
-\describe{
- \item{ \code{ quantile }}{ \code{ numeric }. Quantile of the distribution of guesses. }
- \item{ \code{ estimate }}{ \code{ numeric }. Value of the guess (lbs.) }
- \item{ \code{ error }}{ \code{ numeric }. Difference between the guess and the actual weight of the cow. }
- \item{ \code{ normal }}{ \code{ numeric }. Quantile values of a normal distribution with a median of 1,207 lbs. and a probable error (half the interquartile range) of 37 lbs. }
-
-}
-
-A data frame with 4 columns and 19 rows:
-\describe{
- \item{ \code{ quantile }}{ \code{ numeric }. Quantile of the distribution of guesses. }
- \item{ \code{ estimate }}{ \code{ numeric }. Value of the guess (lbs.) }
- \item{ \code{ error }}{ \code{ numeric }. Difference between the guess and the actual weight of the cow. }
- \item{ \code{ normal }}{ \code{ numeric }. Quantile values of a normal distribution with a median of 1,207 lbs. and a probable error (half the interquartile range) of 37 lbs. }
-
-}
 }
 \references{
 \itemize{

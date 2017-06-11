@@ -1,32 +1,24 @@
 #' {{{title}}}
 #'
-#' {{#description}}
-#' {{{.}}}
-#' {{/description}}
+{{{description}}}
+{{{details}}}
 #'
-#' {{#variables}}
+#' {{#variables}}@format
 #' A data frame with {{{ncol}}} columns and {{{nrow}}} rows:
 #' \describe{
-#' {{#variables}} \item{ \code{ {{{name}}} }}{ \code{ {{{type}}} }. {{{description}}} }
-#' {{/variables}}
+#' {{#variables}} \item{ \code{ {{{name}}} }}{ \code{ {{{type}}} }. {{{description}}} }{{/variables}}
 #' }
 #' {{/variables}}
-#'
-#' {{#references}}
-#' @references
+#' {{#references}}@references
 #' \itemize{
 #' {{#references}}\item{ {{.}} }
 #' {{/references}}
 #' }
 #' {{/references}}
-#'
-#' {{#source}}
-#' @source
+#' {{#source}}@source
 #' {{{source}}}
 #' {{/source}}
-#'
-#' {{#seeAlso}}
-#' @seeAlso
+#' {{#seeAlso}}@seeAlso
 #' {{.}}
 #' {{/seeAlso}}
 "{{{name}}}"

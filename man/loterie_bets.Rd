@@ -4,7 +4,10 @@
 \name{loterie_bets}
 \alias{loterie_bets}
 \title{French Lottery Winning Bets 1779-1833}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 327 rows and 4 columns.}
+\format{A data frame with 4 columns and 327 rows:
+\describe{
+ \item{ \code{ X1 }}{ \code{ integer }. First number } \item{ \code{ X2 }}{ \code{ integer }. Second number } \item{ \code{ X3 }}{ \code{ integer }. Third number } \item{ \code{ X4 }}{ \code{ integer }. Fourth number }
+}}
 \source{
 \url{http://www.stat.uchicago.edu/~stigler/French_Lottery_Data.html}
 }
@@ -13,68 +16,18 @@ loterie_bets
 }
 \description{
 The winning quaterne (four-number) bets for the French lottery, 1797 to 1833.
+In the French lottery (Loterie), a drawing consisted of drawing five balls without replacement,
+from a bin of balls numbered 1 to 90. Players could place bets by specifying a set of numbers,
+which had different names and payoffs based on the number specified.
 }
 \details{
-In the French lottery (Loterie), a drawing consisted of drawing five balls without replacement,
-
-from a bin of balls numbered 1 to 90. Players could place bets by specifying a set of numbers,
-
-which had different names and payoffs based on the number specified.
-
-
-
 \tabular{rrl}{
-
 name \tab number correct \tab payoff \cr
-
 quine \tab five \tab 1,000,000 \cr
-
 quartene \tab four \tab 75,000 \cr
-
 terne \tab three \tab 5,000 \cr
-
 ambe \tab two \tab 270 \cr
-
 extrait \tab one \tab 15
-
-}
-
-
-
-A data frame with 4 columns and 327 rows:
-\describe{
- \item{ \code{ X1 }}{ \code{ integer }. First number }
- \item{ \code{ X2 }}{ \code{ integer }. Second number }
- \item{ \code{ X3 }}{ \code{ integer }. Third number }
- \item{ \code{ X4 }}{ \code{ integer }. Fourth number }
-
-}
-
-A data frame with 4 columns and 327 rows:
-\describe{
- \item{ \code{ X1 }}{ \code{ integer }. First number }
- \item{ \code{ X2 }}{ \code{ integer }. Second number }
- \item{ \code{ X3 }}{ \code{ integer }. Third number }
- \item{ \code{ X4 }}{ \code{ integer }. Fourth number }
-
-}
-
-A data frame with 4 columns and 327 rows:
-\describe{
- \item{ \code{ X1 }}{ \code{ integer }. First number }
- \item{ \code{ X2 }}{ \code{ integer }. Second number }
- \item{ \code{ X3 }}{ \code{ integer }. Third number }
- \item{ \code{ X4 }}{ \code{ integer }. Fourth number }
-
-}
-
-A data frame with 4 columns and 327 rows:
-\describe{
- \item{ \code{ X1 }}{ \code{ integer }. First number }
- \item{ \code{ X2 }}{ \code{ integer }. Second number }
- \item{ \code{ X3 }}{ \code{ integer }. Third number }
- \item{ \code{ X4 }}{ \code{ integer }. Fourth number }
-
 }
 }
 \references{

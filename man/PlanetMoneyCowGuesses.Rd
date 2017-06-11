@@ -4,7 +4,10 @@
 \name{PlanetMoneyCowGuesses}
 \alias{PlanetMoneyCowGuesses}
 \title{mph{Planet Money} Cow Weight Guesses}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 17184 rows and 2 columns.}
+\format{A data frame with 2 columns and 17184 rows:
+\describe{
+ \item{ \code{ guess }}{ \code{ numeric }. Response to the question, "How much does this cow weigh?". The weights are in pounds. } \item{ \code{ error }}{ \code{ numeric }. Difference (in pounds) between the guess and the weight of 1,355 pounds. }
+}}
 \source{
 \href{https://docs.google.com/spreadsheets/d/1tLZpxu0FzX5v6Dq1BYM4RWgdFygit4En6L8sldMz68Q/edit?usp=sharing}{Planet Money Cow Data}
 }
@@ -13,21 +16,6 @@ PlanetMoneyCowGuesses
 }
 \description{
 Data collected by the NPR podcast \emph{Planet Money} to the question, "How much does this cow weigh?". This is a replication of the Galton paper "Vox Populi" which cites guesses of cow's weight from a county fair to illustrate the "wisdom of crowds".
-}
-\details{
-A data frame with 2 columns and 17184 rows:
-\describe{
- \item{ \code{ guess }}{ \code{ numeric }. Response to the question, "How much does this cow weigh?". The weights are in pounds. }
- \item{ \code{ error }}{ \code{ numeric }. Difference (in pounds) between the guess and the weight of 1,355 pounds. }
-
-}
-
-A data frame with 2 columns and 17184 rows:
-\describe{
- \item{ \code{ guess }}{ \code{ numeric }. Response to the question, "How much does this cow weigh?". The weights are in pounds. }
- \item{ \code{ error }}{ \code{ numeric }. Difference (in pounds) between the guess and the weight of 1,355 pounds. }
-
-}
 }
 \references{
 \itemize{

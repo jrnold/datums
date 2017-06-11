@@ -4,7 +4,10 @@
 \name{gavarett}
 \alias{gavarett}
 \title{Gavarett's data on sex ratios of legimate and illegitimate births}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 4 rows and 3 columns.}
+\format{A data frame with 3 columns and 4 rows:
+\describe{
+ \item{ \code{ female }}{ \code{ integer }. 1 if female, 0 if male. } \item{ \code{ legitimate }}{ \code{ integer }. 1 if a "legitimate birth", 0 if a "illegitimate birth" } \item{ \code{ count }}{ \code{ integer }. Counts of births }
+}}
 \source{
 Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 77-79
 }
@@ -13,31 +16,6 @@ gavarett
 }
 \description{
 Jule's Gavarett data on the sex ratios of "legitimate" and illegitimate births for France 1824-1825. Gavarett is an early example of a significance test.
-}
-\details{
-A data frame with 3 columns and 4 rows:
-\describe{
- \item{ \code{ female }}{ \code{ integer }. 1 if female, 0 if male. }
- \item{ \code{ legitimate }}{ \code{ integer }. 1 if a "legitimate birth", 0 if a "illegitimate birth" }
- \item{ \code{ count }}{ \code{ integer }. Counts of births }
-
-}
-
-A data frame with 3 columns and 4 rows:
-\describe{
- \item{ \code{ female }}{ \code{ integer }. 1 if female, 0 if male. }
- \item{ \code{ legitimate }}{ \code{ integer }. 1 if a "legitimate birth", 0 if a "illegitimate birth" }
- \item{ \code{ count }}{ \code{ integer }. Counts of births }
-
-}
-
-A data frame with 3 columns and 4 rows:
-\describe{
- \item{ \code{ female }}{ \code{ integer }. 1 if female, 0 if male. }
- \item{ \code{ legitimate }}{ \code{ integer }. 1 if a "legitimate birth", 0 if a "illegitimate birth" }
- \item{ \code{ count }}{ \code{ integer }. Counts of births }
-
-}
 }
 \references{
 \itemize{
