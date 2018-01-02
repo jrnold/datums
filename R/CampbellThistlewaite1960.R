@@ -1,0 +1,171 @@
+#' Thistlewaite and Campbell (1960) Regression Discontinuity Data
+#'
+#' 
+#' This contains the data used in Thistlewaite and Campbell (1960), the first regression-discontinuity design paper. It studied the effect of merit awards on future academic outcomes: career aspirations, enrollment in Ph.D. or M.D. programs, and intellectualism.
+#' 
+#' Their sample consists near winners in the 1957 Merit program. It consists of 5,126 students who received the Certificates of Merit (C of M) and 2,848 students who received a letter of commendation. Students received the Certificate of Merit primarily based on the basis of the CEEB Scholariship Qualifying Test (SQT). The sample only includes those within 10 points of the cut-off point for their state.  These students were sent a questionnare which provides the response variables for this analysis.
+#' 
+#' The values of \\code{scholarship}, \\code{scholarship_150}, \\code{number_respondents}, \\code{teacher_researcher}, and \\code{intellectualism} come from extracting data from the figures in the paper.
+#' 
+#'
+#' 
+#' A data frame with 10 columns and 22 rows:
+#' \describe{
+#'  \item{ \code{ certificate_of_merit }}{ \code{ integer }. Received a certificate of merit. From Table 1. }
+#'  \item{ \code{ test_score }}{ \code{ character }. Aptitude score interval, relative to the cutoff score of the student's state. From Table 1. }
+#'  \item{ \code{ merit_scholars }}{ \code{ integer }. Number of merit scholars in the interval. }
+#'  \item{ \code{ number_in_sample }}{ \code{ integer }. The number of students in the sample. From Table 1. }
+#'  \item{ \code{ number_respondents }}{ \code{ integer }. The number of students responding to the survey. From Table 1. }
+#'  \item{ \code{ scholarship }}{ \code{ numeric }. Percent of individuals winning any scholarship. From Fig 2. }
+#'  \item{ \code{ scholarship_150 }}{ \code{ numeric }. Percent of individuals receiving a scholarship of \\$150 or greater. From Fig. 2. }
+#'  \item{ \code{ graduate_study }}{ \code{ numeric }. Percent of individuals reporting that they were planning to do three or more years of graduate study (Ph.D. or M.D.). From Fig 3. }
+#'  \item{ \code{ teacher_researcher }}{ \code{ numeric }. Percent of individuals reporting that they were planning to be a college teacher or scientific researcher. From Fig 3. }
+#'  \item{ \code{ intellectualism }}{ \code{ numeric }. Mean score on an attitude towards intellectualism scale. }
+#' 
+#' }
+#' 
+#' A data frame with 10 columns and 22 rows:
+#' \describe{
+#'  \item{ \code{ certificate_of_merit }}{ \code{ integer }. Received a certificate of merit. From Table 1. }
+#'  \item{ \code{ test_score }}{ \code{ character }. Aptitude score interval, relative to the cutoff score of the student's state. From Table 1. }
+#'  \item{ \code{ merit_scholars }}{ \code{ integer }. Number of merit scholars in the interval. }
+#'  \item{ \code{ number_in_sample }}{ \code{ integer }. The number of students in the sample. From Table 1. }
+#'  \item{ \code{ number_respondents }}{ \code{ integer }. The number of students responding to the survey. From Table 1. }
+#'  \item{ \code{ scholarship }}{ \code{ numeric }. Percent of individuals winning any scholarship. From Fig 2. }
+#'  \item{ \code{ scholarship_150 }}{ \code{ numeric }. Percent of individuals receiving a scholarship of \\$150 or greater. From Fig. 2. }
+#'  \item{ \code{ graduate_study }}{ \code{ numeric }. Percent of individuals reporting that they were planning to do three or more years of graduate study (Ph.D. or M.D.). From Fig 3. }
+#'  \item{ \code{ teacher_researcher }}{ \code{ numeric }. Percent of individuals reporting that they were planning to be a college teacher or scientific researcher. From Fig 3. }
+#'  \item{ \code{ intellectualism }}{ \code{ numeric }. Mean score on an attitude towards intellectualism scale. }
+#' 
+#' }
+#' 
+#' A data frame with 10 columns and 22 rows:
+#' \describe{
+#'  \item{ \code{ certificate_of_merit }}{ \code{ integer }. Received a certificate of merit. From Table 1. }
+#'  \item{ \code{ test_score }}{ \code{ character }. Aptitude score interval, relative to the cutoff score of the student's state. From Table 1. }
+#'  \item{ \code{ merit_scholars }}{ \code{ integer }. Number of merit scholars in the interval. }
+#'  \item{ \code{ number_in_sample }}{ \code{ integer }. The number of students in the sample. From Table 1. }
+#'  \item{ \code{ number_respondents }}{ \code{ integer }. The number of students responding to the survey. From Table 1. }
+#'  \item{ \code{ scholarship }}{ \code{ numeric }. Percent of individuals winning any scholarship. From Fig 2. }
+#'  \item{ \code{ scholarship_150 }}{ \code{ numeric }. Percent of individuals receiving a scholarship of \\$150 or greater. From Fig. 2. }
+#'  \item{ \code{ graduate_study }}{ \code{ numeric }. Percent of individuals reporting that they were planning to do three or more years of graduate study (Ph.D. or M.D.). From Fig 3. }
+#'  \item{ \code{ teacher_researcher }}{ \code{ numeric }. Percent of individuals reporting that they were planning to be a college teacher or scientific researcher. From Fig 3. }
+#'  \item{ \code{ intellectualism }}{ \code{ numeric }. Mean score on an attitude towards intellectualism scale. }
+#' 
+#' }
+#' 
+#' A data frame with 10 columns and 22 rows:
+#' \describe{
+#'  \item{ \code{ certificate_of_merit }}{ \code{ integer }. Received a certificate of merit. From Table 1. }
+#'  \item{ \code{ test_score }}{ \code{ character }. Aptitude score interval, relative to the cutoff score of the student's state. From Table 1. }
+#'  \item{ \code{ merit_scholars }}{ \code{ integer }. Number of merit scholars in the interval. }
+#'  \item{ \code{ number_in_sample }}{ \code{ integer }. The number of students in the sample. From Table 1. }
+#'  \item{ \code{ number_respondents }}{ \code{ integer }. The number of students responding to the survey. From Table 1. }
+#'  \item{ \code{ scholarship }}{ \code{ numeric }. Percent of individuals winning any scholarship. From Fig 2. }
+#'  \item{ \code{ scholarship_150 }}{ \code{ numeric }. Percent of individuals receiving a scholarship of \\$150 or greater. From Fig. 2. }
+#'  \item{ \code{ graduate_study }}{ \code{ numeric }. Percent of individuals reporting that they were planning to do three or more years of graduate study (Ph.D. or M.D.). From Fig 3. }
+#'  \item{ \code{ teacher_researcher }}{ \code{ numeric }. Percent of individuals reporting that they were planning to be a college teacher or scientific researcher. From Fig 3. }
+#'  \item{ \code{ intellectualism }}{ \code{ numeric }. Mean score on an attitude towards intellectualism scale. }
+#' 
+#' }
+#' 
+#' A data frame with 10 columns and 22 rows:
+#' \describe{
+#'  \item{ \code{ certificate_of_merit }}{ \code{ integer }. Received a certificate of merit. From Table 1. }
+#'  \item{ \code{ test_score }}{ \code{ character }. Aptitude score interval, relative to the cutoff score of the student's state. From Table 1. }
+#'  \item{ \code{ merit_scholars }}{ \code{ integer }. Number of merit scholars in the interval. }
+#'  \item{ \code{ number_in_sample }}{ \code{ integer }. The number of students in the sample. From Table 1. }
+#'  \item{ \code{ number_respondents }}{ \code{ integer }. The number of students responding to the survey. From Table 1. }
+#'  \item{ \code{ scholarship }}{ \code{ numeric }. Percent of individuals winning any scholarship. From Fig 2. }
+#'  \item{ \code{ scholarship_150 }}{ \code{ numeric }. Percent of individuals receiving a scholarship of \\$150 or greater. From Fig. 2. }
+#'  \item{ \code{ graduate_study }}{ \code{ numeric }. Percent of individuals reporting that they were planning to do three or more years of graduate study (Ph.D. or M.D.). From Fig 3. }
+#'  \item{ \code{ teacher_researcher }}{ \code{ numeric }. Percent of individuals reporting that they were planning to be a college teacher or scientific researcher. From Fig 3. }
+#'  \item{ \code{ intellectualism }}{ \code{ numeric }. Mean score on an attitude towards intellectualism scale. }
+#' 
+#' }
+#' 
+#' A data frame with 10 columns and 22 rows:
+#' \describe{
+#'  \item{ \code{ certificate_of_merit }}{ \code{ integer }. Received a certificate of merit. From Table 1. }
+#'  \item{ \code{ test_score }}{ \code{ character }. Aptitude score interval, relative to the cutoff score of the student's state. From Table 1. }
+#'  \item{ \code{ merit_scholars }}{ \code{ integer }. Number of merit scholars in the interval. }
+#'  \item{ \code{ number_in_sample }}{ \code{ integer }. The number of students in the sample. From Table 1. }
+#'  \item{ \code{ number_respondents }}{ \code{ integer }. The number of students responding to the survey. From Table 1. }
+#'  \item{ \code{ scholarship }}{ \code{ numeric }. Percent of individuals winning any scholarship. From Fig 2. }
+#'  \item{ \code{ scholarship_150 }}{ \code{ numeric }. Percent of individuals receiving a scholarship of \\$150 or greater. From Fig. 2. }
+#'  \item{ \code{ graduate_study }}{ \code{ numeric }. Percent of individuals reporting that they were planning to do three or more years of graduate study (Ph.D. or M.D.). From Fig 3. }
+#'  \item{ \code{ teacher_researcher }}{ \code{ numeric }. Percent of individuals reporting that they were planning to be a college teacher or scientific researcher. From Fig 3. }
+#'  \item{ \code{ intellectualism }}{ \code{ numeric }. Mean score on an attitude towards intellectualism scale. }
+#' 
+#' }
+#' 
+#' A data frame with 10 columns and 22 rows:
+#' \describe{
+#'  \item{ \code{ certificate_of_merit }}{ \code{ integer }. Received a certificate of merit. From Table 1. }
+#'  \item{ \code{ test_score }}{ \code{ character }. Aptitude score interval, relative to the cutoff score of the student's state. From Table 1. }
+#'  \item{ \code{ merit_scholars }}{ \code{ integer }. Number of merit scholars in the interval. }
+#'  \item{ \code{ number_in_sample }}{ \code{ integer }. The number of students in the sample. From Table 1. }
+#'  \item{ \code{ number_respondents }}{ \code{ integer }. The number of students responding to the survey. From Table 1. }
+#'  \item{ \code{ scholarship }}{ \code{ numeric }. Percent of individuals winning any scholarship. From Fig 2. }
+#'  \item{ \code{ scholarship_150 }}{ \code{ numeric }. Percent of individuals receiving a scholarship of \\$150 or greater. From Fig. 2. }
+#'  \item{ \code{ graduate_study }}{ \code{ numeric }. Percent of individuals reporting that they were planning to do three or more years of graduate study (Ph.D. or M.D.). From Fig 3. }
+#'  \item{ \code{ teacher_researcher }}{ \code{ numeric }. Percent of individuals reporting that they were planning to be a college teacher or scientific researcher. From Fig 3. }
+#'  \item{ \code{ intellectualism }}{ \code{ numeric }. Mean score on an attitude towards intellectualism scale. }
+#' 
+#' }
+#' 
+#' A data frame with 10 columns and 22 rows:
+#' \describe{
+#'  \item{ \code{ certificate_of_merit }}{ \code{ integer }. Received a certificate of merit. From Table 1. }
+#'  \item{ \code{ test_score }}{ \code{ character }. Aptitude score interval, relative to the cutoff score of the student's state. From Table 1. }
+#'  \item{ \code{ merit_scholars }}{ \code{ integer }. Number of merit scholars in the interval. }
+#'  \item{ \code{ number_in_sample }}{ \code{ integer }. The number of students in the sample. From Table 1. }
+#'  \item{ \code{ number_respondents }}{ \code{ integer }. The number of students responding to the survey. From Table 1. }
+#'  \item{ \code{ scholarship }}{ \code{ numeric }. Percent of individuals winning any scholarship. From Fig 2. }
+#'  \item{ \code{ scholarship_150 }}{ \code{ numeric }. Percent of individuals receiving a scholarship of \\$150 or greater. From Fig. 2. }
+#'  \item{ \code{ graduate_study }}{ \code{ numeric }. Percent of individuals reporting that they were planning to do three or more years of graduate study (Ph.D. or M.D.). From Fig 3. }
+#'  \item{ \code{ teacher_researcher }}{ \code{ numeric }. Percent of individuals reporting that they were planning to be a college teacher or scientific researcher. From Fig 3. }
+#'  \item{ \code{ intellectualism }}{ \code{ numeric }. Mean score on an attitude towards intellectualism scale. }
+#' 
+#' }
+#' 
+#' A data frame with 10 columns and 22 rows:
+#' \describe{
+#'  \item{ \code{ certificate_of_merit }}{ \code{ integer }. Received a certificate of merit. From Table 1. }
+#'  \item{ \code{ test_score }}{ \code{ character }. Aptitude score interval, relative to the cutoff score of the student's state. From Table 1. }
+#'  \item{ \code{ merit_scholars }}{ \code{ integer }. Number of merit scholars in the interval. }
+#'  \item{ \code{ number_in_sample }}{ \code{ integer }. The number of students in the sample. From Table 1. }
+#'  \item{ \code{ number_respondents }}{ \code{ integer }. The number of students responding to the survey. From Table 1. }
+#'  \item{ \code{ scholarship }}{ \code{ numeric }. Percent of individuals winning any scholarship. From Fig 2. }
+#'  \item{ \code{ scholarship_150 }}{ \code{ numeric }. Percent of individuals receiving a scholarship of \\$150 or greater. From Fig. 2. }
+#'  \item{ \code{ graduate_study }}{ \code{ numeric }. Percent of individuals reporting that they were planning to do three or more years of graduate study (Ph.D. or M.D.). From Fig 3. }
+#'  \item{ \code{ teacher_researcher }}{ \code{ numeric }. Percent of individuals reporting that they were planning to be a college teacher or scientific researcher. From Fig 3. }
+#'  \item{ \code{ intellectualism }}{ \code{ numeric }. Mean score on an attitude towards intellectualism scale. }
+#' 
+#' }
+#' 
+#' A data frame with 10 columns and 22 rows:
+#' \describe{
+#'  \item{ \code{ certificate_of_merit }}{ \code{ integer }. Received a certificate of merit. From Table 1. }
+#'  \item{ \code{ test_score }}{ \code{ character }. Aptitude score interval, relative to the cutoff score of the student's state. From Table 1. }
+#'  \item{ \code{ merit_scholars }}{ \code{ integer }. Number of merit scholars in the interval. }
+#'  \item{ \code{ number_in_sample }}{ \code{ integer }. The number of students in the sample. From Table 1. }
+#'  \item{ \code{ number_respondents }}{ \code{ integer }. The number of students responding to the survey. From Table 1. }
+#'  \item{ \code{ scholarship }}{ \code{ numeric }. Percent of individuals winning any scholarship. From Fig 2. }
+#'  \item{ \code{ scholarship_150 }}{ \code{ numeric }. Percent of individuals receiving a scholarship of \\$150 or greater. From Fig. 2. }
+#'  \item{ \code{ graduate_study }}{ \code{ numeric }. Percent of individuals reporting that they were planning to do three or more years of graduate study (Ph.D. or M.D.). From Fig 3. }
+#'  \item{ \code{ teacher_researcher }}{ \code{ numeric }. Percent of individuals reporting that they were planning to be a college teacher or scientific researcher. From Fig 3. }
+#'  \item{ \code{ intellectualism }}{ \code{ numeric }. Mean score on an attitude towards intellectualism scale. }
+#' 
+#' }
+#' 
+#'
+#' 
+#'
+#' 
+#' @source
+#' Thistlewaite, Donald L. and Donald T. Campbell. (1960) "Regression-Discontinuity Analysis: An Alternative to the Ex Post Facto Experiment." \\emph{Journal of Educational Psychology}. 51(6), December 1960. pp. 309-317.
+#' 
+#'
+#' 
+"CampbellThistlewaite1960"
