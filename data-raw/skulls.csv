@@ -1,0 +1,4 @@
+sex,n,correlation,probable_error
+"male",806,0.0869,0.0236
+"female",340,0.0424,0.0365
+"both",1146,0.1968,0.0192

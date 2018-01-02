@@ -10,14 +10,19 @@ parse_degrees <- function(x) {
   if_else(is.na(deg), 0, deg) + if_else(is.na(mins), 0, mins) / 60
 }
 
+comment_lines <- function(x) {
+  x <- str_trim(unlist(str_split(x, "\n")))
+  str_c("#' ", x, collapse = "\n")
+}
+
 write_doc <- function(name, data) {
   metadata <- yaml::yaml.load_file(file.path("data-raw/",
                                              paste0(name, ".yaml")))
   metadata[["name"]] <- name
   metadata[["description"]] <-
-    str_split(metadata[['description']], "\n")[[1]] %>%
-    str_trim() %>%
-    as.list()
+    comment_lines(metadata[['description']])
+  metadata[["details"]] <-
+    comment_lines(metadata[['details']])
   if (is.data.frame(data)) {
     variables_desc <- map_chr(metadata$variables, "description") %>%
       str_trim()

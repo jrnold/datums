@@ -4,7 +4,10 @@
 \name{average_salary}
 \alias{average_salary}
 \title{Salary Data for a Hypothetical Firm}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 25 rows and 1 columns.}
+\format{A data frame with 1 columns and 25 rows:
+\describe{
+ \item{ \code{ salary }}{ \code{ numeric }. Salary in thousands of dollars }
+}}
 \source{
 Hoff, Darrell. 1954. \emph{How to Lie with Statistics}. W.W. Norton & Company.
 }
@@ -13,20 +16,7 @@ average_salary
 }
 \description{
 Salary data for a hypothetical firm used in Darrell Hoff's
-}
-\details{
 \emph{How to Lie with Statistics} to illustrate the difference
-
 between the mean, median, and mode.
-
-
-
-
-
-A data frame with 1 columns and 25 rows:
-\describe{
- \item{ \code{ salary }}{ \code{ numeric }. Salary in thousands of dollars }
-
-}
 }
 \keyword{datasets}

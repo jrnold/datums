@@ -4,7 +4,10 @@
 \name{countydeaths}
 \alias{countydeaths}
 \title{County death rates for six English counties, 1876-1883}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 48 rows and 3 columns.}
+\format{A data frame with 3 columns and 48 rows:
+\describe{
+ \item{ \code{ county }}{ \code{ character }. County name } \item{ \code{ year }}{ \code{ integer }. Year } \item{ \code{ death_rate }}{ \code{ numeric }. Annual deaths per thousand in that county }
+}}
 \source{
 Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 98
 }
@@ -13,31 +16,6 @@ countydeaths
 }
 \description{
 County deaths for six English counties, 1876--1883, from the 1883 registrar-general's report. This data was analyzed in Edgeworth (1885).
-}
-\details{
-A data frame with 3 columns and 48 rows:
-\describe{
- \item{ \code{ county }}{ \code{ character }. County name }
- \item{ \code{ year }}{ \code{ integer }. Year }
- \item{ \code{ death_rate }}{ \code{ numeric }. Annual deaths per thousand in that county }
-
-}
-
-A data frame with 3 columns and 48 rows:
-\describe{
- \item{ \code{ county }}{ \code{ character }. County name }
- \item{ \code{ year }}{ \code{ integer }. Year }
- \item{ \code{ death_rate }}{ \code{ numeric }. Annual deaths per thousand in that county }
-
-}
-
-A data frame with 3 columns and 48 rows:
-\describe{
- \item{ \code{ county }}{ \code{ character }. County name }
- \item{ \code{ year }}{ \code{ integer }. Year }
- \item{ \code{ death_rate }}{ \code{ numeric }. Annual deaths per thousand in that county }
-
-}
 }
 \references{
 \itemize{
