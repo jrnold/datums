@@ -14,3 +14,6 @@ source: "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}, p.
 references:
 - "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}"
 - "Gavarett, Jules. 1840. \\emph{Pricipes generaux de statistique medicale}. Paris: Bechet jenue et Labe."
+
+seealso: >-
+  \code{\link[HistData]{Arbuthnot}} for another similar, early significance test.

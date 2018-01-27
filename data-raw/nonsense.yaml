@@ -15,7 +15,7 @@ variables:
   - name: "mental_defectives"
     description: >
       Number of notified "mental defectives" per 10,000 in the United Kingdom
-  - name: "presidential_names"
+  - name: "president"
     description: First name of the U.S. President
 source: >
   Tufte, Edward R. 1974. \emph{Data Analysis for Politics and Policy}.

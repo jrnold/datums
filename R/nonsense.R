@@ -1,0 +1,52 @@
+#' Yule and Kendall's nonsense correlations
+#'
+#' Data on the number of radio receiver licenses in the United Kingdom,
+#' 1927-1937 and the number of notified mental defectives per 10,000
+#' in the United Kingdom were used by Udney and Kendell in
+#' \emph{An Introduction to the Theory of Statistics} to illustrate
+#' what they called "nonsense correlations".
+#' Tufte updated these variable with the number of letters in the first name
+#' of the US president for those years.
+#' 
+#' 
+#'
+#' @format
+#' A data frame with 4 columns and 14 rows:
+#' \describe{
+#'  \item{ \code{ year }}{ \code{ integer }. Year } \item{ \code{ radio_licenses }}{ \code{ numeric }. Number of radio receiver licenses in the United Kingdom, 1927-1937 } \item{ \code{ mental_defectives }}{ \code{ integer }. Number of notified "mental defectives" per 10,000 in the United Kingdom } \item{ \code{ president }}{ \code{ character }. First name of the U.S. President }
+#' }
+#' @format
+#' A data frame with 4 columns and 14 rows:
+#' \describe{
+#'  \item{ \code{ year }}{ \code{ integer }. Year } \item{ \code{ radio_licenses }}{ \code{ numeric }. Number of radio receiver licenses in the United Kingdom, 1927-1937 } \item{ \code{ mental_defectives }}{ \code{ integer }. Number of notified "mental defectives" per 10,000 in the United Kingdom } \item{ \code{ president }}{ \code{ character }. First name of the U.S. President }
+#' }
+#' @format
+#' A data frame with 4 columns and 14 rows:
+#' \describe{
+#'  \item{ \code{ year }}{ \code{ integer }. Year } \item{ \code{ radio_licenses }}{ \code{ numeric }. Number of radio receiver licenses in the United Kingdom, 1927-1937 } \item{ \code{ mental_defectives }}{ \code{ integer }. Number of notified "mental defectives" per 10,000 in the United Kingdom } \item{ \code{ president }}{ \code{ character }. First name of the U.S. President }
+#' }
+#' @format
+#' A data frame with 4 columns and 14 rows:
+#' \describe{
+#'  \item{ \code{ year }}{ \code{ integer }. Year } \item{ \code{ radio_licenses }}{ \code{ numeric }. Number of radio receiver licenses in the United Kingdom, 1927-1937 } \item{ \code{ mental_defectives }}{ \code{ integer }. Number of notified "mental defectives" per 10,000 in the United Kingdom } \item{ \code{ president }}{ \code{ character }. First name of the U.S. President }
+#' }
+#' 
+#' @references
+#' \itemize{
+#' \item{ Tufte, Edward R. 1974. \emph{Data Analysis for Politics and Policy}. Prentice Hall. }
+#' \item{ Yule, G. Udny, and M.G. Kendall. 1950. \emph{An Introduction to the Theory of Statistics}. 14th ed. London:Charles Griffin. p. 315-16. }
+#' 
+#' }
+#' @references
+#' \itemize{
+#' \item{ Tufte, Edward R. 1974. \emph{Data Analysis for Politics and Policy}. Prentice Hall. }
+#' \item{ Yule, G. Udny, and M.G. Kendall. 1950. \emph{An Introduction to the Theory of Statistics}. 14th ed. London:Charles Griffin. p. 315-16. }
+#' 
+#' }
+#' 
+#' @source
+#' Tufte, Edward R. 1974. \emph{Data Analysis for Politics and Policy}. Prentice Hall.
+
+#' 
+#' 
+"nonsense"

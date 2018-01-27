@@ -21,3 +21,5 @@ variables:
 source: "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}, p. 24"
 references:
   - "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}"
+seealso: >-
+  \code{db1668} and \code{borough} for other early datasets used to (almost) calculate means.

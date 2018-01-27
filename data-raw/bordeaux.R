@@ -9,7 +9,7 @@ read_lines("http://www.liquidasset.com/winedata.html") %>%
     HRAIN = col_integer(),
     TIME_SV = col_integer()
   ), na = ".") %>%
-  rename_map(str_to_lower) %>%
+  rename_all(str_to_lower) %>%
   mutate(price = exp(lprice2) * 100) %>%
   select(-lprice2) %>%
   select(vint, price, everything()) %>%

@@ -22,3 +22,5 @@ variables:
 source: "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}"
 references:
 - "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}, p. 26"
+seealso: >-
+  \code{gellibrand} and \code{borough} for other early datasets used to (almost) calculate means.
