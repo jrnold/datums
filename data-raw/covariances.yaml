@@ -1,0 +1,23 @@
+description: |+
+  Twenty-one bivariate datasets with different values of correlation.
+
+details: |+
+  This datasets ser
+
+  Datasets 1-7 are sampled from bivariate normal distributions with mean zero, standard deviation one, and correlations of 1, 0.8, 0.4, 0, -0.4, -0.8, and -1, respectively.
+
+  Datasets 8-14 are sampled from degenerate bivariate normal distributions with mean zero, standard deviation one, and correlation one, but roated by values 0, \eqn{\pi / 12}{pi / 12}, \eqn{\pi / 6}{pi / 6}, \eqn{\pi / 4}{pi / 4}, \eqn{pi / 2 - pi / 6}{pi / 2 - pi / 6}, \eqn{\pi/ 2 - \pi / 12}{pi/ 2 - pi / 12}, \eqn{\pi / 2}{pi / 2}.
+  All of these have a correlation coefficient of 1, except when the line is horizontal, in which case the correlation coefficient is undefined.
+
+  Datasets 15-21 are miscelleanous datasets that have Pearson correlation coefficients of zero, but look quite different.
+
+variables:
+  - name: "dataset"
+    description: Dataset identifier
+  - name: x
+    description: x coordinate
+  - name: "y"
+    description: y coordinate
+
+source: |+
+  Wikimedia Commons contributors (2014, July 29) "File:Correlation examples2.svg," \emph{Wikimedia Commons, the free media repository}. Retrieved 04:08, February 5, 2018 \url{https://commons.wikimedia.org/w/index.php?title=File:Correlation_examples2.svg&oldid=130190825}.

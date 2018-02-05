@@ -23,5 +23,5 @@ references:
   - "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}"
   - "Jevons, W. Stanley. 1882. \"The Solar-Commercial Cycle.\" \\emph{Nature}. \\href{https://dx.doi.org/10.1038/026226a0}{doi:10.1038/026226a0}."
 
-seealso: >-
-  "\\code{nonsense} for another example of spurious correlations."
+seealso: |+
+  \code{nonsense} for another example of spurious correlations.

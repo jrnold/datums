@@ -24,6 +24,12 @@ variables:
 source: >
   \url{http://www.liquidasset.com/winedata.html}
 
-references: >
-  - "Ashenfelter, Orley and David Ashmore, and Robert Lalonde. \"Bordeaux Wine Vintage Quality and the Weather." \\emph{Chance}. \\href{https://dx.doi.org/10.1080/09332480.1995.10542468}{doi:10.1080/09332480.1995.10542468}"
-  - "Ashenfelter, Orley. 2008. \"Predicting the Quality and Prices of Bordeaux Wine.\" \\emph{The Economic Journal.} \\href{https://dx.doi.org/10.1111/j.1468-0297.2008.02148.x}{10.1111/j.1468-0297.2008.02148.x}"
+references:
+  - >
+    Ashenfelter, O. and Ashmore, D. and Lalonde, R. (1995)
+    "Bordeaux Wine Vintage Quality and the Weather." \emph{Chance}.
+    \href{https://dx.doi.org/10.1080/09332480.1995.10542468}{doi:10.1080/09332480.1995.10542468}
+  - >
+    Ashenfelter, O. (2008). "Predicting the Quality and Prices of Bordeaux Wine."
+    \emph{The Economic Journal}
+    \href{https://dx.doi.org/10.1111/j.1468-0297.2008.02148.x}{doi:10.1111/j.1468-0297.2008.02148.x}

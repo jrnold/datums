@@ -4,12 +4,14 @@
 \name{average_salary}
 \alias{average_salary}
 \title{Salary Data for a Hypothetical Firm}
-\format{A data frame with 1 columns and 25 rows:
-\describe{
- \item{ \code{ salary }}{ \code{ numeric }. Salary in thousands of dollars }
+\format{A data frame with 25 rows and 1 columns.
+
+\tabular{lll}{
+name \tab type \tab description \cr
+\code{salary} \tab \code{"numeric"} \tab Salary in thousands of dollars \cr
 }}
 \source{
-Hoff, Darrell. 1954. \emph{How to Lie with Statistics}. W.W. Norton & Company.
+Hoff, D. (1954) \emph{How to Lie with Statistics}. W.W. Norton & Company.
 }
 \usage{
 average_salary

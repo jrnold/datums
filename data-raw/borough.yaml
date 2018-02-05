@@ -3,7 +3,7 @@ description: |
   William Borough's data for readings of the variation between magnetic and
   true north using the Sun's taken at different times of the day at
   the Limehouse lighthouse, not far from the Greenwich Meridian.
-  These readings was published in \emph{A Discours of the Variation of the Campas, or Maneticall Needle}.
+  These readings was published in \emph{A Discours of the Variation of the Campas, or Magneticall Needle}.
 
 variables:
   - name: elevation
@@ -18,5 +18,6 @@ variables:
 source: "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}, p. 20"
 references:
   - "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}"
-seealso: >-
-  \code{gellibrand} and \code{db1668} for other early datasets used to (almost) calculate means.
+seealso: |+
+  \code{gellibrand} and \code{db1668} for other datasets relevant to the history
+  of the mean.

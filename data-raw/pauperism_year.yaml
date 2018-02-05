@@ -1,8 +1,8 @@
 title: "Pauperism in England, 1871-1891 (Yearly Data)"
-description: |
-  Data on pauparism used in the 1899 article, \dQuote{An Investigation into the Causes of Changes in Pauperism in England},
+description: |+
+  Data on pauperism used in the 1899 article, \dQuote{An Investigation into the Causes of Changes in Pauperism in England},
   by Udny Yule, which is the first use of multiple regression.
-  The data contains yearl data on pauperism, the proportion of paupers provided for at home
+  The data contains Yearly data on pauperism, the proportion of paupers provided for at home
   vs. the work house, population, and population over 65 for the Poor Law Unions
   of England for the years: 1871, 1881, and 1891.
 
@@ -60,7 +60,7 @@ variables:
 - name: outratio
   description: Ratio of Out-Door Paupers to In-Door Paupers
 - name: outratiodiff
-  description: Ratio of outratio91 to outratio81
+  description: "Ratio of \\code{outratio91} to \\code{outratio81}"
 - name: pauper
   description: Proportion of Paupers in the Population
 - name: pauper2
@@ -81,10 +81,10 @@ variables:
 - name: popratiodiff
   description: Ratio of Population to previous decade
 - name: PropF65
-  description: Proportion of Females Aged 65+ in the Female Population
+  description: "Proportion of females aged 65+ in the female population"
 - name: PropM65
-  description: Proportion of Males Aged 65+ in the Male Population
+  description: "Proportion of males aged 65+ in the Male Population"
 - name: Prop65
-  description: Proportion of the Population Aged 65+
+  description: "Proportion of the population Aged 65+"
 - name: oldratiodiff
-  description: Ratio of the Proprotion of Population Aged 65+ to the previous decade.
+  description: "Ratio of the proportion of Population Aged 65+ to the previous decade."

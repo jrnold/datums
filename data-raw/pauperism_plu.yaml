@@ -1,16 +1,15 @@
 title: "Pauperism in England, 1871-1891 (Poor Law Unions)"
 description: |
-  Data on pauperism in England, 1871-1881, used in Udney Yule's 1899 paper.
+  Data on pauperism in England, 1871-1881, used in Udny Yule's 1899 paper.
   This data frame contains Poor Law Union specific variables.
 
   See \code{\link{pauperism_year}} for further description of the data
-  and the yearly pauprism statistics.
-
+  and the yearly pauperism statistics.
 
 references:
-- "Yule, G. Udny. 1899. \\dQuote{An Investigation into the Causes of Changes in Pauperism in England, Chiefly During the Last Two Intercensal Decades (part I.)}. \\emph{Journal of the Royal Statistical Society} \\href{https://dx.doi.org/10.2307/2979889}{doi:10.2307/2979889}."
-- "Plewis, I. 2015. \\dQuote{Multiple regression, longitudinal data and welfare in the nineteenth century: reflections on Yule (1899)}, submitted to \\emph{Journal of the Royal Statistical Society, Series A}."
-- "Plewis, I. and Schmidt, E. 2015. \\dQuote{Reconstructing G. Udny Yule’s 1899 pauperism dataset}, CMIST Report 2015-3"
+- "Yule, G. U. (1899) \\dQuote{An Investigation into the Causes of Changes in Pauperism in England, Chiefly During the Last Two Intercensal Decades (part I.)}. \\emph{Journal of the Royal Statistical Society} \\href{https://dx.doi.org/10.2307/2979889}{doi:10.2307/2979889}."
+- "Plewis, I. (2015) \\dQuote{Multiple regression, longitudinal data and welfare in the nineteenth century: reflections on Yule (1899)}, submitted to \\emph{Journal of the Royal Statistical Society, Series A}."
+- "Plewis, I. and Schmidt, E. (2015) \\dQuote{Reconstructing G. Udny Yule’s 1899 pauperism dataset}, CMIST Report 2015-3"
 variables:
 - name: ID
   description: ID

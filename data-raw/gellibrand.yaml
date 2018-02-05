@@ -10,7 +10,7 @@ variables:
   - name: afternoon
     description: Reading was taken in the afternoon
   - name: altitude
-    description: Altitude of the Sun in degreees
+    description: Altitude of the Sun in degrees
   - name: azim_mag
     description: Magnetic azimuth in degrees
   - name: azim_sun
@@ -18,8 +18,8 @@ variables:
   - name: variation
     description: Variation between true and magnetic north in degrees
 
-source: "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}, p. 24"
+source: "Stigler, S. M. (2016) \\emph{The Seven Pillars of Statistical Wisdom}, p. 24"
 references:
-  - "Stigler, Stephen M. \\emph{The Seven Pillars of Statistical Wisdom}"
+  - "Stigler, S. M. (2016) \\emph{The Seven Pillars of Statistical Wisdom}"
 seealso: >-
   \code{db1668} and \code{borough} for other early datasets used to (almost) calculate means.

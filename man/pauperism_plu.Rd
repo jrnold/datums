@@ -4,41 +4,34 @@
 \name{pauperism_plu}
 \alias{pauperism_plu}
 \title{Pauperism in England, 1871-1891 (Poor Law Unions)}
-\format{A data frame with 7 columns and 599 rows:
-\describe{
- \item{ \code{ ID }}{ \code{ numeric }. ID } \item{ \code{ Union }}{ \code{ character }. Union } \item{ \code{ Region }}{ \code{ character }. Region } \item{ \code{ County }}{ \code{ character }. County } \item{ \code{ Type }}{ \code{ character }. Yule's Rural/Urban Classification of Unions } \item{ \code{ BoothGroup }}{ \code{ character }. Booth's Classification of Unions } \item{ \code{ BoothDensity }}{ \code{ numeric }. Booth's Population Density }
+\format{A data frame with 599 rows and 7 columns.
+
+\tabular{lll}{
+name \tab type \tab description \cr
+\code{ID} \tab \code{"numeric"} \tab ID \cr
+\code{Union} \tab \code{"character"} \tab Union \cr
+\code{Region} \tab \code{"character"} \tab Region \cr
+\code{County} \tab \code{"character"} \tab County \cr
+\code{Type} \tab \code{"character"} \tab Yule's Rural/Urban Classification of Unions \cr
+\code{BoothGroup} \tab \code{"character"} \tab Booth's Classification of Unions \cr
+\code{BoothDensity} \tab \code{"numeric"} \tab Booth's Population Density \cr
 }}
 \usage{
 pauperism_plu
 }
 \description{
-Data on pauperism in England, 1871-1881, used in Udney Yule's 1899 paper.
+Data on pauperism in England, 1871-1881, used in Udny Yule's 1899 paper.
 This data frame contains Poor Law Union specific variables.
 }
 \details{
 See \code{\link{pauperism_year}} for further description of the data
-and the yearly pauprism statistics.
+and the yearly pauperism statistics.
 }
 \references{
-\itemize{
-\item{ Yule, G. Udny. 1899. \dQuote{An Investigation into the Causes of Changes in Pauperism in England, Chiefly During the Last Two Intercensal Decades (part I.)}. \emph{Journal of the Royal Statistical Society} \href{https://dx.doi.org/10.2307/2979889}{doi:10.2307/2979889}. }
-\item{ Plewis, I. 2015. \dQuote{Multiple regression, longitudinal data and welfare in the nineteenth century: reflections on Yule (1899)}, submitted to \emph{Journal of the Royal Statistical Society, Series A}. }
-\item{ Plewis, I. and Schmidt, E. 2015. \dQuote{Reconstructing G. Udny Yule’s 1899 pauperism dataset}, CMIST Report 2015-3 }
+Yule, G. U. (1899) \dQuote{An Investigation into the Causes of Changes in Pauperism in England, Chiefly During the Last Two Intercensal Decades (part I.)}. \emph{Journal of the Royal Statistical Society} \href{https://dx.doi.org/10.2307/2979889}{doi:10.2307/2979889}.
 
-}
+Plewis, I. (2015) \dQuote{Multiple regression, longitudinal data and welfare in the nineteenth century: reflections on Yule (1899)}, submitted to \emph{Journal of the Royal Statistical Society, Series A}.
 
-\itemize{
-\item{ Yule, G. Udny. 1899. \dQuote{An Investigation into the Causes of Changes in Pauperism in England, Chiefly During the Last Two Intercensal Decades (part I.)}. \emph{Journal of the Royal Statistical Society} \href{https://dx.doi.org/10.2307/2979889}{doi:10.2307/2979889}. }
-\item{ Plewis, I. 2015. \dQuote{Multiple regression, longitudinal data and welfare in the nineteenth century: reflections on Yule (1899)}, submitted to \emph{Journal of the Royal Statistical Society, Series A}. }
-\item{ Plewis, I. and Schmidt, E. 2015. \dQuote{Reconstructing G. Udny Yule’s 1899 pauperism dataset}, CMIST Report 2015-3 }
-
-}
-
-\itemize{
-\item{ Yule, G. Udny. 1899. \dQuote{An Investigation into the Causes of Changes in Pauperism in England, Chiefly During the Last Two Intercensal Decades (part I.)}. \emph{Journal of the Royal Statistical Society} \href{https://dx.doi.org/10.2307/2979889}{doi:10.2307/2979889}. }
-\item{ Plewis, I. 2015. \dQuote{Multiple regression, longitudinal data and welfare in the nineteenth century: reflections on Yule (1899)}, submitted to \emph{Journal of the Royal Statistical Society, Series A}. }
-\item{ Plewis, I. and Schmidt, E. 2015. \dQuote{Reconstructing G. Udny Yule’s 1899 pauperism dataset}, CMIST Report 2015-3 }
-
-}
+Plewis, I. and Schmidt, E. (2015) \dQuote{Reconstructing G. Udny Yule’s 1899 pauperism dataset}, CMIST Report 2015-3
 }
 \keyword{datasets}

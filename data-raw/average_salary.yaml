@@ -1,11 +1,12 @@
 title: Salary Data for a Hypothetical Firm
-description: |
+description: |+
   Salary data for a hypothetical firm used in Darrell Hoff's
   \emph{How to Lie with Statistics} to illustrate the difference
   between the mean, median, and mode.
+
 variables:
   - name: salary
     description: Salary in thousands of dollars
-source: >
-  Hoff, Darrell. 1954. \emph{How to Lie with Statistics}. W.W. Norton & Company.
+source: |+
+  Hoff, D. (1954) \emph{How to Lie with Statistics}. W.W. Norton & Company.
 references: []

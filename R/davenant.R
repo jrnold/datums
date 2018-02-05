@@ -1,0 +1,19 @@
+#' King-Davenant Price Schedule
+#' 
+#' The King-Davenant price schedule is a small schedule of the the harvest sizes and prices of corn. It was published by Davenant in 1699 and also attributed to Gregory King. This schedule was analyzed by Jevons in 1871.  It is likely that this schedule is only an approximation of the original data, since the the third difference is constant (Stigler 1999, p. 81).
+#' Jevons (1871) fit the schedule with a function of the form \deqn{\frac{a}{{(x - b)}^{n}}}{a / (x - b)^n}. It assumed \eqn{n = 2} was assumed, and then solved for \eqn{a = 0.824} and \eqn{b = 0.12}. See Stigler (1999) for details of how this was fit.
+#' 
+#' @format A data frame with 6 rows and 3 columns.
+#' 
+#' \tabular{lll}{
+#' name \tab type \tab description \cr
+#' \code{quantity} \tab \code{"numeric"} \tab Harvest size of corn. \cr
+#' \code{price} \tab \code{"numeric"} \tab Price of corn. \cr
+#' \code{fitted} \tab \code{"numeric"} \tab Jevons's (1871) fitted values \cr
+#' }
+#' 
+#' @source Stigler, S. M. (1999) \emph{Statistics on the Table}. p 81.
+#' 
+#' @references Jevons, W. S. (1871) \emph{Theory of Political Economy}
+#' Stigler, S. M. (1999) \emph{Statistics on the Table}. p 80-86.
+"davenant"

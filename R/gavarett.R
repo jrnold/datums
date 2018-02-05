@@ -1,40 +1,23 @@
-#' Gavarett's data on sex ratios of legimate and illegitimate births
-#'
-#' Jule's Gavarett data on the sex ratios of "legitimate" and illegitimate births for France 1824-1825. Gavarett is an early example of a significance test.
+#' Gavarett's data on sex ratios of legitimate and illegitimate births
 #' 
+#' Jules Gavarett's data on the sex ratios of legitimate and
+#' illegitimate births for France, 1824-1825.
+#' This analysis was an early example of a significance test.
 #' 
-#'
-#' @format
-#' A data frame with 3 columns and 4 rows:
-#' \describe{
-#'  \item{ \code{ female }}{ \code{ integer }. 1 if female, 0 if male. } \item{ \code{ legitimate }}{ \code{ integer }. 1 if a "legitimate birth", 0 if a "illegitimate birth" } \item{ \code{ count }}{ \code{ integer }. Counts of births }
-#' }
-#' @format
-#' A data frame with 3 columns and 4 rows:
-#' \describe{
-#'  \item{ \code{ female }}{ \code{ integer }. 1 if female, 0 if male. } \item{ \code{ legitimate }}{ \code{ integer }. 1 if a "legitimate birth", 0 if a "illegitimate birth" } \item{ \code{ count }}{ \code{ integer }. Counts of births }
-#' }
-#' @format
-#' A data frame with 3 columns and 4 rows:
-#' \describe{
-#'  \item{ \code{ female }}{ \code{ integer }. 1 if female, 0 if male. } \item{ \code{ legitimate }}{ \code{ integer }. 1 if a "legitimate birth", 0 if a "illegitimate birth" } \item{ \code{ count }}{ \code{ integer }. Counts of births }
+#' @format A data frame with 4 rows and 3 columns.
+#' 
+#' \tabular{lll}{
+#' name \tab type \tab description \cr
+#' \code{female} \tab \code{"integer"} \tab 1 if female, 0 if male. \cr
+#' \code{legitimate} \tab \code{"integer"} \tab 1 if a "legitimate birth", 0 if a "illegitimate birth" \cr
+#' \code{count} \tab \code{"integer"} \tab Counts of births \cr
 #' }
 #' 
-#' @references
-#' \itemize{
-#' \item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom} }
-#' \item{ Gavarett, Jules. 1840. \emph{Pricipes generaux de statistique medicale}. Paris: Bechet jenue et Labe. }
+#' @source Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 77-79
 #' 
-#' }
-#' @references
-#' \itemize{
-#' \item{ Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom} }
-#' \item{ Gavarett, Jules. 1840. \emph{Pricipes generaux de statistique medicale}. Paris: Bechet jenue et Labe. }
+#' @references Stigler, S. M. (2016) \emph{The Seven Pillars of Statistical Wisdom}
 #' 
-#' }
+#' @references Gavarett, J. (1840) \emph{Principes Generaux de Statistique Medicale}. Paris: Bechet jenue et Labe.
 #' 
-#' @source
-#' Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 77-79
-#' 
-#' 
+#' @seealso \code{\link[HistData]{Arbuthnot}} for another similar, early significance test.
 "gavarett"
