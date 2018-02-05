@@ -3,7 +3,7 @@
 \docType{data}
 \name{gellibrand}
 \alias{gellibrand}
-\title{Gellibrand's 1635 data for the variation of the needle}
+\title{Magnetic Variation at Deptford, England in 1635}
 \format{A data frame with 11 rows and 5 columns.
 
 \tabular{lll}{

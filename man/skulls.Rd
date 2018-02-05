@@ -3,7 +3,7 @@
 \docType{data}
 \name{skulls}
 \alias{skulls}
-\title{Correlations of length and breadth of skulls by sex}
+\title{Correlations between length and breadth of skulls, by sex}
 \format{A data frame with 3 rows and 4 columns.
 
 \tabular{lll}{

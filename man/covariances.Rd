@@ -3,7 +3,7 @@
 \docType{data}
 \name{covariances}
 \alias{covariances}
-\title{Twenty-one bivariate datasets with different values of correlation.}
+\title{Several Simulated Datasets Illustrating Correlation Coefficients}
 \format{A data frame with 12800 rows and 3 columns.
 
 \tabular{lll}{
@@ -19,6 +19,6 @@ Wikimedia Commons contributors (2014, July 29) "File:Correlation examples2.svg,"
 covariances
 }
 \description{
-Twenty-one bivariate datasets with different values of correlation.
+Several Simulated Datasets Illustrating Correlation Coefficients
 }
 \keyword{datasets}

@@ -3,7 +3,7 @@
 \docType{data}
 \name{delhiwheat}
 \alias{delhiwheat}
-\title{Price of Wheat in Delhi 1763-1836}
+\title{Price of Wheat in Delhi, 1763--1836}
 \format{A data frame with 74 rows and 4 columns.
 
 \tabular{lll}{

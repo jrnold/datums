@@ -3,7 +3,7 @@
 \docType{data}
 \name{db1668}
 \alias{db1668}
-\title{Table of Magnetic Variation near Bristol on May 23, 1668}
+\title{Magnetic Variation near Bristol, England on May 23, 1668}
 \format{A data frame with 5 rows and 4 columns.
 
 \tabular{lll}{

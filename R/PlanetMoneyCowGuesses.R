@@ -1,4 +1,4 @@
-#' mph{Planet Money} Cow Weight Guesses
+#' Planet Money Cow Weight Guesses
 #' 
 #' Data collected by the NPR podcast \emph{Planet Money} to the question, "How much does this cow weigh?". This is a replication of the Galton paper "Vox Populi" which cites guesses of cow's weight from a county fair to illustrate the "wisdom of crowds".
 #' 

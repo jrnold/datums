@@ -1,4 +1,4 @@
-#' Gellibrand's 1635 data for the variation of the needle
+#' Magnetic Variation at Deptford, England in 1635
 #' 
 #' Henry Gellibrand's data for readings of the variation between magnetic and
 #' true north using the Sun's taken at Deptford, England.

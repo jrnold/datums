@@ -1,4 +1,4 @@
-#' Borough's 1580 data for the variation of the needle
+#' Magnetic Variation in England in 1580
 #' 
 #' William Borough's data for readings of the variation between magnetic and
 #' true north using the Sun's taken at different times of the day at

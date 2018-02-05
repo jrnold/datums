@@ -3,7 +3,7 @@
 \docType{data}
 \name{weldon}
 \alias{weldon}
-\title{Weldon's Dice}
+\title{Weldon's Dice Rolls}
 \format{A data frame with 13 rows and 4 columns.
 
 \tabular{lll}{
@@ -17,13 +17,13 @@ name \tab type \tab description \cr
  \cr
 }}
 \source{
-Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 184
+Stigler, Stephen M. (2016) \emph{The Seven Pillars of Statistical Wisdom}, p. 184
 }
 \usage{
 weldon
 }
 \description{
-Frank Weldon threw 12 dice 26,306 times and for each throw counted the number of dice that showed a five or six. Pearson analyzed this data in 1900.
+In order to test how well probability theory represented the real-world, Frank Weldon threw 12 dice 26,306 times. For each throw, he recorded the number of dice that showed a five or six. Pearson analyzed this data in 1900, and compared it to the implied values of a binomial distribution.
 }
 \references{
 Stigler, S. M. (2016) \emph{The Seven Pillars of Statistical Wisdom}.

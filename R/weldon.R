@@ -1,6 +1,6 @@
-#' Weldon's Dice
+#' Weldon's Dice Rolls
 #' 
-#' Frank Weldon threw 12 dice 26,306 times and for each throw counted the number of dice that showed a five or six. Pearson analyzed this data in 1900.
+#' In order to test how well probability theory represented the real-world, Frank Weldon threw 12 dice 26,306 times. For each throw, he recorded the number of dice that showed a five or six. Pearson analyzed this data in 1900, and compared it to the implied values of a binomial distribution.
 #' 
 #' @format A data frame with 13 rows and 4 columns.
 #' 
@@ -15,7 +15,7 @@
 #'  \cr
 #' }
 #' 
-#' @source Stigler, Stephen M. \emph{The Seven Pillars of Statistical Wisdom}, p. 184
+#' @source Stigler, Stephen M. (2016) \emph{The Seven Pillars of Statistical Wisdom}, p. 184
 #' 
 #' @references Stigler, S. M. (2016) \emph{The Seven Pillars of Statistical Wisdom}.
 #' 

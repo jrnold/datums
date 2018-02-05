@@ -1,4 +1,4 @@
-#' Twenty-one bivariate datasets with different values of correlation.
+#' Several Simulated Datasets Illustrating Correlation Coefficients
 #' 
 #' @format A data frame with 12800 rows and 3 columns.
 #' 

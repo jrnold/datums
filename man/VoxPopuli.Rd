@@ -3,7 +3,7 @@
 \docType{data}
 \name{VoxPopuli}
 \alias{VoxPopuli}
-\title{Votes in a cow weight-judging competition}
+\title{Galton's cow weight-judging competition data}
 \format{A data frame with 19 rows and 3 columns.
 
 \tabular{lll}{

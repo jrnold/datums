@@ -1,4 +1,4 @@
-#' Naming convention of the normal distribution
+#' Stigler's data on eponymic conventions for the normal distribution
 #' 
 #' Data from eighty textbooks, 1816 to 1976, on their eponymic practices regarding the normal distribution. Each text was coded as whether they called the normal distribution "Gaussian", "Laplacian", or did not use an eponym.
 #' 
@@ -18,4 +18,4 @@
 #' 
 #' @source Stephen M. S. (1999) \emph{Statistics on the Table: The History of Statistical Concepts and Methods},
 #' Table 14.1, "Data on Eighty book's eponymic practices", p. 287.
-"eponymns"
+"eponyms"

@@ -3,7 +3,7 @@
 \docType{data}
 \name{PlanetMoneyCowGuesses}
 \alias{PlanetMoneyCowGuesses}
-\title{mph{Planet Money} Cow Weight Guesses}
+\title{Planet Money Cow Weight Guesses}
 \format{A data frame with 17184 rows and 2 columns.
 
 \tabular{lll}{

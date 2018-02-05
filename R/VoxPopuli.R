@@ -1,4 +1,4 @@
-#' Votes in a cow weight-judging competition
+#' Galton's cow weight-judging competition data
 #' 
 #' Distribution of 787 guesses in a cow weight-judging competition.
 #' These data was used by Galton to in a series of letters to

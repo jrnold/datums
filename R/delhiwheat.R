@@ -1,4 +1,4 @@
-#' Price of Wheat in Delhi 1763-1836
+#' Price of Wheat in Delhi, 1763--1836
 #' 
 #' Price of wheat in Delhi 1763-1836.  This series was notoriously and spuriously related to sunspots (Wolf's numbers) by William S. Jevons in his last published paper. Jevons theorized that sunspots were related to commercial cycles and crises due to similarity in cycles of these time series.
 #' 

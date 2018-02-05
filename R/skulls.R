@@ -1,4 +1,4 @@
-#' Correlations of length and breadth of skulls by sex
+#' Correlations between length and breadth of skulls, by sex
 #' 
 #' The data consist of the correlations between the length and
 #' breadth of skulls in the Paris Catacombs gathered by

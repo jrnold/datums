@@ -1,8 +1,11 @@
 description: |+
-  Twenty-one bivariate datasets with different values of correlation.
+  Several Simulated Datasets Illustrating Correlation Coefficients
 
 details: |+
-  This datasets ser
+  This dataset contains several simulated datasets of (x, y) values that illustrate
+  different correlation coefficients. These generated in the same manner
+  as the plot of different correlation coefficients on the Wikpedia page for
+  \href{https://en.wikipedia.org/wiki/Correlation_and_dependence#/media/File:Correlation_examples2.svg}{Correlation and Covariance}.
 
   Datasets 1-7 are sampled from bivariate normal distributions with mean zero, standard deviation one, and correlations of 1, 0.8, 0.4, 0, -0.4, -0.8, and -1, respectively.
 

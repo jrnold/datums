@@ -3,7 +3,7 @@
 \docType{data}
 \name{borough}
 \alias{borough}
-\title{Borough's 1580 data for the variation of the needle}
+\title{Magnetic Variation in England in 1580}
 \format{A data frame with 9 rows and 4 columns.
 
 \tabular{lll}{
