@@ -1,5 +1,5 @@
 Package: datums
-Title: Miscellaneous Historically Important Data Sets
+Title: Miscellaneous Data Sets
 Version: 0.1.0
 Authors@R: person("Jeffrey", "Arnold", role = c("aut", "cre"),
                   email = "jeffrey.arnold@gmail.com")
