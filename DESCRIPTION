@@ -1,12 +1,13 @@
 Package: datums
 Title: Miscellaneous Historically Important Data Sets
-Version: 0.0.1
+Version: 0.1.0
 Authors@R: person("Jeffrey", "Arnold", role = c("aut", "cre"),
                   email = "jeffrey.arnold@gmail.com")
 Description: Miscellaneous data sets that are historically important for
   statistics or social science.
 Depends: R (>= 3.3.2)
 Suggests:
+  spelling,
   dplyr,
   ggplot2
 License: MIT + file LICENSE

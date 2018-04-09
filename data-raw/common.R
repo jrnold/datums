@@ -115,5 +115,5 @@ save_data <- function(data, name) {
        file = here::here("data", str_c(name, ".rda")),
        compress = "bzip2")
   doc_file <- here::here("R", str_c(name, ".R"))
-  cat(doc_str(name), file = doc_file)
+  cat(doc_str(name), "\n", sep = "", file = doc_file)
 }
