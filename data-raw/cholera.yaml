@@ -1,0 +1,20 @@
+title: "John Snow's cholera data"
+description: |
+  Data on cholera deaths in 1849 and 1854 for sub-districts in London
+  and the companies supplying them water. This is the data used in the
+  difference-in-difference analysis, not the more famous map.
+
+variables:
+  - name: sub_district
+    description: London sub-district
+  - name: cholera_1849
+    description: "Number of cholera deaths in 1849"
+  - name: cholera_1854
+    description: "Number of cholera deaths in 1854"
+  - name: "company"
+    description: "Company that supplies water to that district"
+  - name: "note"
+    description: "Footnotes associated with rows."
+
+Source: >-
+  Snow, J. (1855) \emph{On the mode of communication of cholera}. 2nd ed. John Churchill.
